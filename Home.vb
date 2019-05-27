@@ -8,7 +8,7 @@
 
     Private Sub toLogin_Click(sender As Object, e As EventArgs) Handles toLogin.Click
         Me.Hide()
-        Login.Show()
+        UserBoard.Show()
     End Sub
 
     Private Sub minimize_Click(sender As Object, e As EventArgs) Handles minimize.Click

@@ -10,7 +10,7 @@
         If (status) Then
             Me.Hide()
             Temporizador.Enabled = False
-            Home.Show()
+            Login.Show()
         Else
             loadingstatus.Text = "Could't connect. Please try again"
             closeForm = True

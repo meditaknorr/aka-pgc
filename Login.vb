@@ -100,7 +100,7 @@
         'loadingPic.Hide()
         'End If
         Me.Close()
-        UserBoard.Show()
+        Home.Show()
     End Sub
 
 End Class
