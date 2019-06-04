@@ -14,8 +14,7 @@
     End Sub
 
     Private Sub closer_Click(sender As Object, e As EventArgs) Handles closer.Click
-        Me.Close()
-        Home.Show()
+        Application.ExitThread()
     End Sub
 
     Private Sub inputUsernamebg_Click(sender As Object, e As EventArgs) Handles inputUsernamebg.Click
@@ -79,28 +78,30 @@
         End If
     End Sub
 
-    Private Sub CreateAccount_Click(sender As Object, e As EventArgs) Handles CreateAccount.Click
-        Me.Close()
-        ACreator.Show()
-    End Sub
-
     Private Sub loginButton_Click(sender As Object, e As EventArgs) Handles loginButton.Click
-        'loadingPic.Show()
-        'Dim user As String = username.Text()
-        'Dim psw As String = password.Text()
+        loadingPic.Show()
+        Dim user As String = username.Text()
+        Dim psw As String = password.Text()
 
-        'If (dba.loginStatus(user, psw)) Then
-        'Me.Close()
-        'UserBoard.Show()
-        'Else
-        'MsgBox("Incorrect username or password. Please try again using the correct credentials.")
-        'password.PasswordChar = ControlChars.NullChar
-        'username.Text = "'username'"
-        'password.Text = "'password'"
-        'loadingPic.Hide()
-        'End If
-        Me.Close()
-        Home.Show()
+        If (dba.loginStatus(user, psw)) Then
+            Me.Close()
+            UserBoard.Show()
+        Else
+            MsgBox("Incorrect username or password. Please try again using the correct credentials.")
+            password.PasswordChar = ControlChars.NullChar
+            username.Text = "'username'"
+            password.Text = "'password'"
+            loadingPic.Hide()
+        End If
     End Sub
 
+    Private Sub ForgotDetailsLink_Click(sender As Object, e As EventArgs) Handles ForgotUsernameLink.Click
+        Me.Hide()
+        ForgotUsername.Show()
+    End Sub
+
+    Private Sub ForgotPasswordlink_Click(sender As Object, e As EventArgs) Handles ForgotPasswordlink.Click
+        Me.Hide()
+        ForgotPassword.Show()
+    End Sub
 End Class

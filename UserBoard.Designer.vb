@@ -24,15 +24,14 @@ Partial Class UserBoard
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(UserBoard))
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button5 = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.UserIcon = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.UserTab = New System.Windows.Forms.TabControl()
         Me.MyApplications = New System.Windows.Forms.TabPage()
         Me.CAppliedbyme = New System.Windows.Forms.WebBrowser()
         Me.CreateMyApplication = New System.Windows.Forms.TabPage()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.activityCompany = New System.Windows.Forms.ComboBox()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.RichTextBox2 = New System.Windows.Forms.RichTextBox()
         Me.Label4 = New System.Windows.Forms.Label()
@@ -45,6 +44,7 @@ Partial Class UserBoard
         Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.textbox11 = New System.Windows.Forms.TextBox()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label7 = New System.Windows.Forms.Label()
@@ -80,8 +80,11 @@ Partial Class UserBoard
         Me.PictureBox10 = New System.Windows.Forms.PictureBox()
         Me.AboutCompany = New System.Windows.Forms.TabPage()
         Me.AboutMe = New System.Windows.Forms.TabPage()
-        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
+        Me.PictureBox17 = New System.Windows.Forms.PictureBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.yearsinactivity = New System.Windows.Forms.TextBox()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         CType(Me.UserIcon, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -91,6 +94,7 @@ Partial Class UserBoard
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.ManageMyApplication.SuspendLayout()
@@ -104,81 +108,26 @@ Partial Class UserBoard
         CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(90, Byte), Integer))
-        Me.Panel1.Controls.Add(Me.Button6)
-        Me.Panel1.Controls.Add(Me.Button5)
-        Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Controls.Add(Me.Label12)
+        Me.Panel1.Controls.Add(Me.Label13)
         Me.Panel1.Controls.Add(Me.UserIcon)
         Me.Panel1.Controls.Add(Me.PictureBox1)
         Me.Panel1.Location = New System.Drawing.Point(-5, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(313, 764)
+        Me.Panel1.Size = New System.Drawing.Size(284, 764)
         Me.Panel1.TabIndex = 0
-        '
-        'Button6
-        '
-        Me.Button6.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(90, Byte), Integer))
-        Me.Button6.BackgroundImage = Global.ProjectoGConcurso.My.Resources.Resources.enter
-        Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button6.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(90, Byte), Integer))
-        Me.Button6.FlatAppearance.BorderSize = 0
-        Me.Button6.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.Button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(90, Byte), Integer))
-        Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(90, Byte), Integer))
-        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.Font = New System.Drawing.Font("Roboto", 11.0!, System.Drawing.FontStyle.Bold)
-        Me.Button6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(90, Byte), Integer))
-        Me.Button6.Location = New System.Drawing.Point(186, 723)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(115, 26)
-        Me.Button6.TabIndex = 19
-        Me.Button6.Text = "Logout"
-        Me.Button6.UseVisualStyleBackColor = False
-        '
-        'Button5
-        '
-        Me.Button5.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(90, Byte), Integer))
-        Me.Button5.BackgroundImage = Global.ProjectoGConcurso.My.Resources.Resources.enter
-        Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(90, Byte), Integer))
-        Me.Button5.FlatAppearance.BorderSize = 0
-        Me.Button5.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.Button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(90, Byte), Integer))
-        Me.Button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(90, Byte), Integer))
-        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Font = New System.Drawing.Font("Roboto", 11.0!, System.Drawing.FontStyle.Bold)
-        Me.Button5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(90, Byte), Integer))
-        Me.Button5.Location = New System.Drawing.Point(17, 723)
-        Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(115, 26)
-        Me.Button5.TabIndex = 19
-        Me.Button5.Text = "Home"
-        Me.Button5.UseVisualStyleBackColor = False
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(250, Byte), Integer), CType(CType(250, Byte), Integer), CType(CType(250, Byte), Integer))
-        Me.Label1.Font = New System.Drawing.Font("Roboto", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.Coral
-        Me.Label1.Location = New System.Drawing.Point(131, 151)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(37, 18)
-        Me.Label1.TabIndex = 7
-        Me.Label1.Text = "user"
         '
         'UserIcon
         '
         Me.UserIcon.BackColor = System.Drawing.Color.FromArgb(CType(CType(250, Byte), Integer), CType(CType(250, Byte), Integer), CType(CType(250, Byte), Integer))
         Me.UserIcon.Image = CType(resources.GetObject("UserIcon.Image"), System.Drawing.Image)
-        Me.UserIcon.Location = New System.Drawing.Point(103, 52)
+        Me.UserIcon.Location = New System.Drawing.Point(84, 73)
         Me.UserIcon.Name = "UserIcon"
         Me.UserIcon.Size = New System.Drawing.Size(96, 96)
         Me.UserIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
@@ -188,7 +137,7 @@ Partial Class UserBoard
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.ProjectoGConcurso.My.Resources.Resources.circle
-        Me.PictureBox1.Location = New System.Drawing.Point(67, 29)
+        Me.PictureBox1.Location = New System.Drawing.Point(48, 40)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(168, 168)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -204,10 +153,10 @@ Partial Class UserBoard
         Me.UserTab.Controls.Add(Me.AboutCompany)
         Me.UserTab.Controls.Add(Me.AboutMe)
         Me.UserTab.Font = New System.Drawing.Font("Roboto", 10.0!)
-        Me.UserTab.Location = New System.Drawing.Point(314, 12)
+        Me.UserTab.Location = New System.Drawing.Point(285, 0)
         Me.UserTab.Name = "UserTab"
         Me.UserTab.SelectedIndex = 0
-        Me.UserTab.Size = New System.Drawing.Size(874, 752)
+        Me.UserTab.Size = New System.Drawing.Size(903, 764)
         Me.UserTab.TabIndex = 1
         '
         'MyApplications
@@ -216,7 +165,7 @@ Partial Class UserBoard
         Me.MyApplications.Location = New System.Drawing.Point(4, 24)
         Me.MyApplications.Name = "MyApplications"
         Me.MyApplications.Padding = New System.Windows.Forms.Padding(3)
-        Me.MyApplications.Size = New System.Drawing.Size(866, 724)
+        Me.MyApplications.Size = New System.Drawing.Size(895, 736)
         Me.MyApplications.TabIndex = 0
         Me.MyApplications.Text = "My Applications"
         Me.MyApplications.UseVisualStyleBackColor = True
@@ -227,11 +176,16 @@ Partial Class UserBoard
         Me.CAppliedbyme.Location = New System.Drawing.Point(3, 3)
         Me.CAppliedbyme.MinimumSize = New System.Drawing.Size(20, 20)
         Me.CAppliedbyme.Name = "CAppliedbyme"
-        Me.CAppliedbyme.Size = New System.Drawing.Size(860, 718)
+        Me.CAppliedbyme.Size = New System.Drawing.Size(889, 730)
         Me.CAppliedbyme.TabIndex = 0
         '
         'CreateMyApplication
         '
+        Me.CreateMyApplication.Controls.Add(Me.yearsinactivity)
+        Me.CreateMyApplication.Controls.Add(Me.Label2)
+        Me.CreateMyApplication.Controls.Add(Me.PictureBox17)
+        Me.CreateMyApplication.Controls.Add(Me.Label1)
+        Me.CreateMyApplication.Controls.Add(Me.activityCompany)
         Me.CreateMyApplication.Controls.Add(Me.Button2)
         Me.CreateMyApplication.Controls.Add(Me.RichTextBox2)
         Me.CreateMyApplication.Controls.Add(Me.Label4)
@@ -240,7 +194,6 @@ Partial Class UserBoard
         Me.CreateMyApplication.Controls.Add(Me.DateTimePicker2)
         Me.CreateMyApplication.Controls.Add(Me.PictureBox4)
         Me.CreateMyApplication.Controls.Add(Me.PictureBox5)
-        Me.CreateMyApplication.Controls.Add(Me.TextBox13)
         Me.CreateMyApplication.Controls.Add(Me.TextBox1)
         Me.CreateMyApplication.Controls.Add(Me.TextBox4)
         Me.CreateMyApplication.Controls.Add(Me.textbox11)
@@ -252,10 +205,39 @@ Partial Class UserBoard
         Me.CreateMyApplication.Location = New System.Drawing.Point(4, 24)
         Me.CreateMyApplication.Name = "CreateMyApplication"
         Me.CreateMyApplication.Padding = New System.Windows.Forms.Padding(3)
-        Me.CreateMyApplication.Size = New System.Drawing.Size(866, 724)
+        Me.CreateMyApplication.Size = New System.Drawing.Size(895, 736)
         Me.CreateMyApplication.TabIndex = 1
         Me.CreateMyApplication.Text = "Create Application"
         Me.CreateMyApplication.UseVisualStyleBackColor = True
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.Label1.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label1.ForeColor = System.Drawing.SystemColors.GrayText
+        Me.Label1.Location = New System.Drawing.Point(51, 279)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(111, 19)
+        Me.Label1.TabIndex = 20
+        Me.Label1.Text = "target / sector"
+        '
+        'activityCompany
+        '
+        Me.activityCompany.BackColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.activityCompany.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.activityCompany.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.activityCompany.ForeColor = System.Drawing.SystemColors.GrayText
+        Me.activityCompany.FormattingEnabled = True
+        Me.activityCompany.ImeMode = System.Windows.Forms.ImeMode.NoControl
+        Me.activityCompany.ItemHeight = 19
+        Me.activityCompany.Location = New System.Drawing.Point(187, 276)
+        Me.activityCompany.MaxDropDownItems = 20
+        Me.activityCompany.MaxLength = 45
+        Me.activityCompany.Name = "activityCompany"
+        Me.activityCompany.Size = New System.Drawing.Size(356, 27)
+        Me.activityCompany.Sorted = True
+        Me.activityCompany.TabIndex = 19
         '
         'Button2
         '
@@ -281,11 +263,11 @@ Partial Class UserBoard
         'RichTextBox2
         '
         Me.RichTextBox2.ForeColor = System.Drawing.Color.DimGray
-        Me.RichTextBox2.Location = New System.Drawing.Point(55, 378)
+        Me.RichTextBox2.Location = New System.Drawing.Point(55, 369)
         Me.RichTextBox2.Name = "RichTextBox2"
         Me.RichTextBox2.Size = New System.Drawing.Size(763, 315)
         Me.RichTextBox2.TabIndex = 17
-        Me.RichTextBox2.Text = "important notes"
+        Me.RichTextBox2.Text = "Further Details"
         '
         'Label4
         '
@@ -293,7 +275,7 @@ Partial Class UserBoard
         Me.Label4.BackColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
         Me.Label4.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label4.ForeColor = System.Drawing.SystemColors.GrayText
-        Me.Label4.Location = New System.Drawing.Point(556, 187)
+        Me.Label4.Location = New System.Drawing.Point(539, 188)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(36, 19)
         Me.Label4.TabIndex = 16
@@ -303,10 +285,10 @@ Partial Class UserBoard
         '
         Me.DateTimePicker1.CalendarForeColor = System.Drawing.Color.Gray
         Me.DateTimePicker1.CalendarMonthBackground = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
-        Me.DateTimePicker1.Location = New System.Drawing.Point(598, 96)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(581, 96)
         Me.DateTimePicker1.MinDate = New Date(2019, 5, 2, 0, 0, 0, 0)
         Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(220, 24)
+        Me.DateTimePicker1.Size = New System.Drawing.Size(237, 24)
         Me.DateTimePicker1.TabIndex = 15
         '
         'Label3
@@ -315,7 +297,7 @@ Partial Class UserBoard
         Me.Label3.BackColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
         Me.Label3.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold)
         Me.Label3.ForeColor = System.Drawing.SystemColors.GrayText
-        Me.Label3.Location = New System.Drawing.Point(556, 100)
+        Me.Label3.Location = New System.Drawing.Point(539, 100)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(42, 19)
         Me.Label3.TabIndex = 16
@@ -325,27 +307,27 @@ Partial Class UserBoard
         '
         Me.DateTimePicker2.CalendarForeColor = System.Drawing.Color.Gray
         Me.DateTimePicker2.CalendarMonthBackground = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
-        Me.DateTimePicker2.Location = New System.Drawing.Point(598, 183)
+        Me.DateTimePicker2.Location = New System.Drawing.Point(581, 183)
         Me.DateTimePicker2.MinDate = New Date(2019, 5, 2, 0, 0, 0, 0)
         Me.DateTimePicker2.Name = "DateTimePicker2"
-        Me.DateTimePicker2.Size = New System.Drawing.Size(220, 24)
+        Me.DateTimePicker2.Size = New System.Drawing.Size(237, 24)
         Me.DateTimePicker2.TabIndex = 15
         '
         'PictureBox4
         '
         Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(546, 172)
+        Me.PictureBox4.Location = New System.Drawing.Point(533, 172)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(281, 50)
+        Me.PictureBox4.Size = New System.Drawing.Size(294, 50)
         Me.PictureBox4.TabIndex = 14
         Me.PictureBox4.TabStop = False
         '
         'PictureBox5
         '
         Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
-        Me.PictureBox5.Location = New System.Drawing.Point(546, 85)
+        Me.PictureBox5.Location = New System.Drawing.Point(533, 85)
         Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(281, 50)
+        Me.PictureBox5.Size = New System.Drawing.Size(294, 50)
         Me.PictureBox5.TabIndex = 14
         Me.PictureBox5.TabStop = False
         '
@@ -389,11 +371,21 @@ Partial Class UserBoard
         '
         Me.PictureBox6.BackColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
         Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
-        Me.PictureBox6.Location = New System.Drawing.Point(45, 367)
+        Me.PictureBox6.Location = New System.Drawing.Point(45, 358)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(782, 335)
         Me.PictureBox6.TabIndex = 11
         Me.PictureBox6.TabStop = False
+        '
+        'PictureBox7
+        '
+        Me.PictureBox7.BackColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.PictureBox7.Image = CType(resources.GetObject("PictureBox7.Image"), System.Drawing.Image)
+        Me.PictureBox7.Location = New System.Drawing.Point(45, 263)
+        Me.PictureBox7.Name = "PictureBox7"
+        Me.PictureBox7.Size = New System.Drawing.Size(507, 50)
+        Me.PictureBox7.TabIndex = 11
+        Me.PictureBox7.TabStop = False
         '
         'PictureBox3
         '
@@ -437,7 +429,7 @@ Partial Class UserBoard
         Me.ManageMyApplication.Controls.Add(Me.PictureBox8)
         Me.ManageMyApplication.Location = New System.Drawing.Point(4, 24)
         Me.ManageMyApplication.Name = "ManageMyApplication"
-        Me.ManageMyApplication.Size = New System.Drawing.Size(866, 724)
+        Me.ManageMyApplication.Size = New System.Drawing.Size(895, 736)
         Me.ManageMyApplication.TabIndex = 4
         Me.ManageMyApplication.Text = "Manage Applications"
         Me.ManageMyApplication.UseVisualStyleBackColor = True
@@ -574,7 +566,7 @@ Partial Class UserBoard
         Me.AccountManage.Controls.Add(Me.PictureBox10)
         Me.AccountManage.Location = New System.Drawing.Point(4, 24)
         Me.AccountManage.Name = "AccountManage"
-        Me.AccountManage.Size = New System.Drawing.Size(866, 724)
+        Me.AccountManage.Size = New System.Drawing.Size(895, 736)
         Me.AccountManage.TabIndex = 3
         Me.AccountManage.Text = "Manage Account"
         Me.AccountManage.UseVisualStyleBackColor = True
@@ -820,7 +812,7 @@ Partial Class UserBoard
         '
         Me.AboutCompany.Location = New System.Drawing.Point(4, 24)
         Me.AboutCompany.Name = "AboutCompany"
-        Me.AboutCompany.Size = New System.Drawing.Size(866, 724)
+        Me.AboutCompany.Size = New System.Drawing.Size(895, 736)
         Me.AboutCompany.TabIndex = 5
         Me.AboutCompany.Text = "About Company"
         Me.AboutCompany.UseVisualStyleBackColor = True
@@ -829,32 +821,68 @@ Partial Class UserBoard
         '
         Me.AboutMe.Location = New System.Drawing.Point(4, 24)
         Me.AboutMe.Name = "AboutMe"
-        Me.AboutMe.Size = New System.Drawing.Size(866, 724)
+        Me.AboutMe.Size = New System.Drawing.Size(895, 736)
         Me.AboutMe.TabIndex = 2
         Me.AboutMe.Text = "About Me"
         Me.AboutMe.UseVisualStyleBackColor = True
         '
-        'PictureBox7
+        'PictureBox17
         '
-        Me.PictureBox7.BackColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
-        Me.PictureBox7.Image = CType(resources.GetObject("PictureBox7.Image"), System.Drawing.Image)
-        Me.PictureBox7.Location = New System.Drawing.Point(45, 263)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(782, 50)
-        Me.PictureBox7.TabIndex = 11
-        Me.PictureBox7.TabStop = False
+        Me.PictureBox17.Image = CType(resources.GetObject("PictureBox17.Image"), System.Drawing.Image)
+        Me.PictureBox17.Location = New System.Drawing.Point(598, 263)
+        Me.PictureBox17.Name = "PictureBox17"
+        Me.PictureBox17.Size = New System.Drawing.Size(229, 50)
+        Me.PictureBox17.TabIndex = 21
+        Me.PictureBox17.TabStop = False
         '
-        'TextBox13
+        'Label2
         '
-        Me.TextBox13.BackColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
-        Me.TextBox13.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox13.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold)
-        Me.TextBox13.ForeColor = System.Drawing.SystemColors.GrayText
-        Me.TextBox13.Location = New System.Drawing.Point(55, 278)
-        Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(753, 20)
-        Me.TextBox13.TabIndex = 12
-        Me.TextBox13.Text = "application open for"
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.Label2.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.Label2.ForeColor = System.Drawing.SystemColors.GrayText
+        Me.Label2.Location = New System.Drawing.Point(605, 279)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(121, 19)
+        Me.Label2.TabIndex = 22
+        Me.Label2.Text = "years in activity"
+        '
+        'yearsinactivity
+        '
+        Me.yearsinactivity.BackColor = System.Drawing.Color.FromArgb(CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer), CType(CType(232, Byte), Integer))
+        Me.yearsinactivity.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.yearsinactivity.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold)
+        Me.yearsinactivity.ForeColor = System.Drawing.SystemColors.GrayText
+        Me.yearsinactivity.Location = New System.Drawing.Point(732, 278)
+        Me.yearsinactivity.MaxLength = 2
+        Me.yearsinactivity.Name = "yearsinactivity"
+        Me.yearsinactivity.Size = New System.Drawing.Size(86, 20)
+        Me.yearsinactivity.TabIndex = 23
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Label13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Label13.Font = New System.Drawing.Font("Roboto", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.ForeColor = System.Drawing.Color.White
+        Me.Label13.Location = New System.Drawing.Point(17, 9)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(32, 13)
+        Me.Label13.TabIndex = 13
+        Me.Label13.Text = "Back"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Label12.Font = New System.Drawing.Font("Roboto Medium", 8.25!)
+        Me.Label12.ForeColor = System.Drawing.Color.White
+        Me.Label12.Location = New System.Drawing.Point(229, 9)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(43, 13)
+        Me.Label12.TabIndex = 13
+        Me.Label12.Text = "LogOut"
         '
         'UserBoard
         '
@@ -879,6 +907,7 @@ Partial Class UserBoard
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ManageMyApplication.ResumeLayout(False)
@@ -894,14 +923,13 @@ Partial Class UserBoard
         CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
     Friend WithEvents Panel1 As Panel
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents Label1 As Label
     Friend WithEvents UserIcon As PictureBox
     Friend WithEvents UserTab As TabControl
     Friend WithEvents MyApplications As TabPage
@@ -954,8 +982,12 @@ Partial Class UserBoard
     Friend WithEvents loginButton As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Button3 As Button
-    Friend WithEvents Button5 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents TextBox13 As TextBox
     Friend WithEvents PictureBox7 As PictureBox
+    Friend WithEvents activityCompany As ComboBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents PictureBox17 As PictureBox
+    Friend WithEvents Label2 As Label
+    Friend WithEvents yearsinactivity As TextBox
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label13 As Label
 End Class

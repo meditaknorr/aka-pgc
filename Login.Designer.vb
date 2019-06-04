@@ -25,12 +25,10 @@ Partial Class Login
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Login))
         Me.username = New System.Windows.Forms.TextBox()
         Me.password = New System.Windows.Forms.TextBox()
-        Me.ForgotDetails = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.InvitetoCreateAccount = New System.Windows.Forms.Label()
-        Me.CreateAccount = New System.Windows.Forms.Label()
-        Me.loadingPic = New System.Windows.Forms.PictureBox()
+        Me.ForgotUsernameLink = New System.Windows.Forms.Label()
+        Me.ForgotPasswordlink = New System.Windows.Forms.Label()
         Me.UserIcon = New System.Windows.Forms.PictureBox()
+        Me.loadingPic = New System.Windows.Forms.PictureBox()
         Me.loginButton = New System.Windows.Forms.Button()
         Me.maximize = New System.Windows.Forms.Button()
         Me.minimize = New System.Windows.Forms.Button()
@@ -38,8 +36,8 @@ Partial Class Login
         Me.inputPasswordbg = New System.Windows.Forms.PictureBox()
         Me.inputUsernamebg = New System.Windows.Forms.PictureBox()
         Me.LoginBg = New System.Windows.Forms.PictureBox()
-        CType(Me.loadingPic, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.UserIcon, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.loadingPic, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.inputPasswordbg, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.inputUsernamebg, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.LoginBg, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -77,67 +75,31 @@ Partial Class Login
         Me.password.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         Me.password.WordWrap = False
         '
-        'ForgotDetails
+        'ForgotUsernameLink
         '
-        Me.ForgotDetails.AutoSize = True
-        Me.ForgotDetails.BackColor = System.Drawing.Color.Transparent
-        Me.ForgotDetails.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ForgotDetails.Font = New System.Drawing.Font("Roboto", 8.25!)
-        Me.ForgotDetails.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.ForgotDetails.Location = New System.Drawing.Point(88, 448)
-        Me.ForgotDetails.Name = "ForgotDetails"
-        Me.ForgotDetails.Size = New System.Drawing.Size(121, 13)
-        Me.ForgotDetails.TabIndex = 9
-        Me.ForgotDetails.Text = "Forgor your username?"
+        Me.ForgotUsernameLink.AutoSize = True
+        Me.ForgotUsernameLink.BackColor = System.Drawing.Color.Transparent
+        Me.ForgotUsernameLink.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ForgotUsernameLink.Font = New System.Drawing.Font("Roboto", 8.25!)
+        Me.ForgotUsernameLink.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.ForgotUsernameLink.Location = New System.Drawing.Point(88, 448)
+        Me.ForgotUsernameLink.Name = "ForgotUsernameLink"
+        Me.ForgotUsernameLink.Size = New System.Drawing.Size(121, 13)
+        Me.ForgotUsernameLink.TabIndex = 9
+        Me.ForgotUsernameLink.Text = "Forgor your username?"
         '
-        'Label1
+        'ForgotPasswordlink
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Label1.Font = New System.Drawing.Font("Roboto", 8.25!)
-        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(232, 448)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(119, 13)
-        Me.Label1.TabIndex = 9
-        Me.Label1.Text = "Forgor your password?"
-        '
-        'InvitetoCreateAccount
-        '
-        Me.InvitetoCreateAccount.AutoSize = True
-        Me.InvitetoCreateAccount.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(90, Byte), Integer))
-        Me.InvitetoCreateAccount.Cursor = System.Windows.Forms.Cursors.Default
-        Me.InvitetoCreateAccount.Font = New System.Drawing.Font("Roboto", 8.25!)
-        Me.InvitetoCreateAccount.ForeColor = System.Drawing.Color.White
-        Me.InvitetoCreateAccount.Location = New System.Drawing.Point(107, 605)
-        Me.InvitetoCreateAccount.Name = "InvitetoCreateAccount"
-        Me.InvitetoCreateAccount.Size = New System.Drawing.Size(125, 13)
-        Me.InvitetoCreateAccount.TabIndex = 9
-        Me.InvitetoCreateAccount.Text = "It's your first time here?"
-        '
-        'CreateAccount
-        '
-        Me.CreateAccount.AutoSize = True
-        Me.CreateAccount.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(90, Byte), Integer))
-        Me.CreateAccount.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.CreateAccount.Font = New System.Drawing.Font("Roboto", 8.25!, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CreateAccount.ForeColor = System.Drawing.Color.White
-        Me.CreateAccount.Location = New System.Drawing.Point(240, 605)
-        Me.CreateAccount.Name = "CreateAccount"
-        Me.CreateAccount.Size = New System.Drawing.Size(99, 13)
-        Me.CreateAccount.TabIndex = 9
-        Me.CreateAccount.Text = "Create an Account"
-        '
-        'loadingPic
-        '
-        Me.loadingPic.Image = Global.ProjectoGConcurso.My.Resources.Resources.loadin
-        Me.loadingPic.Location = New System.Drawing.Point(171, 161)
-        Me.loadingPic.Name = "loadingPic"
-        Me.loadingPic.Size = New System.Drawing.Size(108, 86)
-        Me.loadingPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.loadingPic.TabIndex = 10
-        Me.loadingPic.TabStop = False
+        Me.ForgotPasswordlink.AutoSize = True
+        Me.ForgotPasswordlink.BackColor = System.Drawing.Color.Transparent
+        Me.ForgotPasswordlink.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.ForgotPasswordlink.Font = New System.Drawing.Font("Roboto", 8.25!)
+        Me.ForgotPasswordlink.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.ForgotPasswordlink.Location = New System.Drawing.Point(232, 448)
+        Me.ForgotPasswordlink.Name = "ForgotPasswordlink"
+        Me.ForgotPasswordlink.Size = New System.Drawing.Size(119, 13)
+        Me.ForgotPasswordlink.TabIndex = 9
+        Me.ForgotPasswordlink.Text = "Forgor your password?"
         '
         'UserIcon
         '
@@ -148,6 +110,16 @@ Partial Class Login
         Me.UserIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
         Me.UserIcon.TabIndex = 5
         Me.UserIcon.TabStop = False
+        '
+        'loadingPic
+        '
+        Me.loadingPic.Image = Global.ProjectoGConcurso.My.Resources.Resources.loadin
+        Me.loadingPic.Location = New System.Drawing.Point(171, 161)
+        Me.loadingPic.Name = "loadingPic"
+        Me.loadingPic.Size = New System.Drawing.Size(108, 86)
+        Me.loadingPic.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.loadingPic.TabIndex = 10
+        Me.loadingPic.TabStop = False
         '
         'loginButton
         '
@@ -259,10 +231,8 @@ Partial Class Login
         Me.ClientSize = New System.Drawing.Size(450, 800)
         Me.Controls.Add(Me.UserIcon)
         Me.Controls.Add(Me.loadingPic)
-        Me.Controls.Add(Me.CreateAccount)
-        Me.Controls.Add(Me.InvitetoCreateAccount)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.ForgotDetails)
+        Me.Controls.Add(Me.ForgotPasswordlink)
+        Me.Controls.Add(Me.ForgotUsernameLink)
         Me.Controls.Add(Me.password)
         Me.Controls.Add(Me.username)
         Me.Controls.Add(Me.loginButton)
@@ -277,8 +247,8 @@ Partial Class Login
         Me.Name = "Login"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "MainScreen"
-        CType(Me.loadingPic, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.UserIcon, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.loadingPic, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.inputPasswordbg, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.inputUsernamebg, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.LoginBg, System.ComponentModel.ISupportInitialize).EndInit()
@@ -296,10 +266,8 @@ Partial Class Login
     Friend WithEvents username As TextBox
     Friend WithEvents inputPasswordbg As PictureBox
     Friend WithEvents password As TextBox
-    Friend WithEvents ForgotDetails As Label
-    Friend WithEvents Label1 As Label
+    Friend WithEvents ForgotUsernameLink As Label
+    Friend WithEvents ForgotPasswordlink As Label
     Friend WithEvents loginButton As Button
-    Friend WithEvents InvitetoCreateAccount As Label
-    Friend WithEvents CreateAccount As Label
     Friend WithEvents loadingPic As PictureBox
 End Class

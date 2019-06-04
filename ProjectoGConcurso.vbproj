@@ -184,10 +184,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ACreator.Designer.vb">
-      <DependentUpon>ACreator.vb</DependentUpon>
+    <Compile Include="DepricatedAccountCreator.Designer.vb">
+      <DependentUpon>DepricatedAccountCreator.vb</DependentUpon>
     </Compile>
-    <Compile Include="ACreator.vb">
+    <Compile Include="DepricatedAccountCreator.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CDescription.Designer.vb">
@@ -196,10 +196,22 @@
     <Compile Include="CDescription.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Loading.Designer.vb">
-      <DependentUpon>Loading.vb</DependentUpon>
+    <Compile Include="DepricatedLoading.Designer.vb">
+      <DependentUpon>DepricatedLoading.vb</DependentUpon>
     </Compile>
-    <Compile Include="Loading.vb">
+    <Compile Include="DepricatedLoading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.Designer.vb">
+      <DependentUpon>ForgotPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotUsername.Designer.vb">
+      <DependentUpon>ForgotUsername.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotUsername.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SysClasses\dbamanager.vb" />
@@ -245,17 +257,23 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="ACreator.resx">
-      <DependentUpon>ACreator.vb</DependentUpon>
+    <EmbeddedResource Include="DepricatedAccountCreator.resx">
+      <DependentUpon>DepricatedAccountCreator.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CDescription.resx">
       <DependentUpon>CDescription.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPassword.resx">
+      <DependentUpon>ForgotPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgotUsername.resx">
+      <DependentUpon>ForgotUsername.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Home.resx">
       <DependentUpon>Home.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Loading.resx">
-      <DependentUpon>Loading.vb</DependentUpon>
+    <EmbeddedResource Include="DepricatedLoading.resx">
+      <DependentUpon>DepricatedLoading.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>

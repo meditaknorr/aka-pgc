@@ -23,12 +23,7 @@ Partial Class Home
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Home))
-        Me.homeSearch = New System.Windows.Forms.TextBox()
-        Me.inputSearchbg = New System.Windows.Forms.PictureBox()
         Me.toLogin = New System.Windows.Forms.Button()
-        Me.maximize = New System.Windows.Forms.Button()
-        Me.minimize = New System.Windows.Forms.Button()
-        Me.closer = New System.Windows.Forms.Button()
         Me.TilesPanel = New System.Windows.Forms.FlowLayoutPanel()
         Me.Tile = New System.Windows.Forms.Panel()
         Me.text12 = New System.Windows.Forms.Label()
@@ -84,9 +79,7 @@ Partial Class Home
         Me.reference9 = New System.Windows.Forms.Label()
         Me.tLabel9 = New System.Windows.Forms.Label()
         Me.text91 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.constatus = New System.Windows.Forms.Label()
-        CType(Me.inputSearchbg, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Logout = New System.Windows.Forms.Label()
         Me.TilesPanel.SuspendLayout()
         Me.Tile.SuspendLayout()
         Me.Tile2.SuspendLayout()
@@ -98,32 +91,6 @@ Partial Class Home
         Me.Tile8.SuspendLayout()
         Me.Tile9.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'homeSearch
-        '
-        Me.homeSearch.AccessibleName = ""
-        Me.homeSearch.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.homeSearch.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.homeSearch.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.homeSearch.ForeColor = System.Drawing.Color.Gray
-        Me.homeSearch.Location = New System.Drawing.Point(384, 45)
-        Me.homeSearch.Name = "homeSearch"
-        Me.homeSearch.Size = New System.Drawing.Size(432, 16)
-        Me.homeSearch.TabIndex = 9
-        Me.homeSearch.Tag = "homeSearch"
-        Me.homeSearch.Text = "'Enter search criteria'"
-        Me.homeSearch.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'inputSearchbg
-        '
-        Me.inputSearchbg.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.inputSearchbg.Image = Global.ProjectoGConcurso.My.Resources.Resources.long_input_long1
-        Me.inputSearchbg.Location = New System.Drawing.Point(375, 32)
-        Me.inputSearchbg.Name = "inputSearchbg"
-        Me.inputSearchbg.Size = New System.Drawing.Size(445, 42)
-        Me.inputSearchbg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
-        Me.inputSearchbg.TabIndex = 8
-        Me.inputSearchbg.TabStop = False
         '
         'toLogin
         '
@@ -141,55 +108,6 @@ Partial Class Home
         Me.toLogin.Size = New System.Drawing.Size(48, 48)
         Me.toLogin.TabIndex = 1
         Me.toLogin.UseVisualStyleBackColor = True
-        '
-        'maximize
-        '
-        Me.maximize.BackgroundImage = CType(resources.GetObject("maximize.BackgroundImage"), System.Drawing.Image)
-        Me.maximize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.maximize.Cursor = System.Windows.Forms.Cursors.Default
-        Me.maximize.FlatAppearance.BorderColor = System.Drawing.Color.White
-        Me.maximize.FlatAppearance.BorderSize = 0
-        Me.maximize.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.maximize.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.maximize.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.maximize.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.maximize.Location = New System.Drawing.Point(60, 12)
-        Me.maximize.Name = "maximize"
-        Me.maximize.Size = New System.Drawing.Size(20, 20)
-        Me.maximize.TabIndex = 1
-        Me.maximize.UseVisualStyleBackColor = True
-        '
-        'minimize
-        '
-        Me.minimize.BackgroundImage = CType(resources.GetObject("minimize.BackgroundImage"), System.Drawing.Image)
-        Me.minimize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.minimize.FlatAppearance.BorderColor = System.Drawing.Color.White
-        Me.minimize.FlatAppearance.BorderSize = 0
-        Me.minimize.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.minimize.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.minimize.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.minimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.minimize.Location = New System.Drawing.Point(36, 12)
-        Me.minimize.Name = "minimize"
-        Me.minimize.Size = New System.Drawing.Size(20, 20)
-        Me.minimize.TabIndex = 1
-        Me.minimize.UseVisualStyleBackColor = True
-        '
-        'closer
-        '
-        Me.closer.BackgroundImage = CType(resources.GetObject("closer.BackgroundImage"), System.Drawing.Image)
-        Me.closer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.closer.FlatAppearance.BorderColor = System.Drawing.Color.White
-        Me.closer.FlatAppearance.BorderSize = 0
-        Me.closer.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.closer.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.closer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.closer.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.closer.Location = New System.Drawing.Point(12, 12)
-        Me.closer.Name = "closer"
-        Me.closer.Size = New System.Drawing.Size(20, 20)
-        Me.closer.TabIndex = 1
-        Me.closer.UseVisualStyleBackColor = True
         '
         'TilesPanel
         '
@@ -893,26 +811,18 @@ Partial Class Home
         Me.text91.Text = "Bicicletas e De Alimenticios"
         Me.text91.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label1
+        'Logout
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Roboto", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(9, 778)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(81, 13)
-        Me.Label1.TabIndex = 11
-        Me.Label1.Text = "Server Status: "
-        '
-        'constatus
-        '
-        Me.constatus.AutoSize = True
-        Me.constatus.Font = New System.Drawing.Font("Roboto Medium", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.constatus.ForeColor = System.Drawing.SystemColors.AppWorkspace
-        Me.constatus.Location = New System.Drawing.Point(87, 778)
-        Me.constatus.Name = "constatus"
-        Me.constatus.Size = New System.Drawing.Size(94, 14)
-        Me.constatus.TabIndex = 11
-        Me.constatus.Text = "Running Fine!"
+        Me.Logout.AutoSize = True
+        Me.Logout.BackColor = System.Drawing.Color.Transparent
+        Me.Logout.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Logout.Font = New System.Drawing.Font("Roboto", 8.25!)
+        Me.Logout.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Logout.Location = New System.Drawing.Point(12, 9)
+        Me.Logout.Name = "Logout"
+        Me.Logout.Size = New System.Drawing.Size(41, 13)
+        Me.Logout.TabIndex = 10
+        Me.Logout.Text = "Logout"
         '
         'Home
         '
@@ -922,15 +832,9 @@ Partial Class Home
         Me.BackgroundImage = Global.ProjectoGConcurso.My.Resources.Resources.Hback
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.ClientSize = New System.Drawing.Size(1200, 800)
-        Me.Controls.Add(Me.constatus)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TilesPanel)
-        Me.Controls.Add(Me.homeSearch)
-        Me.Controls.Add(Me.inputSearchbg)
         Me.Controls.Add(Me.toLogin)
-        Me.Controls.Add(Me.maximize)
-        Me.Controls.Add(Me.minimize)
-        Me.Controls.Add(Me.closer)
+        Me.Controls.Add(Me.Logout)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.MaximizeBox = False
         Me.MaximumSize = New System.Drawing.Size(1200, 800)
@@ -938,7 +842,6 @@ Partial Class Home
         Me.Name = "Home"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = " "
-        CType(Me.inputSearchbg, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TilesPanel.ResumeLayout(False)
         Me.Tile.ResumeLayout(False)
         Me.Tile.PerformLayout()
@@ -962,12 +865,7 @@ Partial Class Home
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents closer As Button
-    Friend WithEvents minimize As Button
-    Friend WithEvents maximize As Button
     Friend WithEvents toLogin As Button
-    Friend WithEvents inputSearchbg As PictureBox
-    Friend WithEvents homeSearch As TextBox
     Friend WithEvents TilesPanel As FlowLayoutPanel
     Friend WithEvents Tile As Panel
     Friend WithEvents text11 As Label
@@ -1023,6 +921,5 @@ Partial Class Home
     Friend WithEvents reference9 As Label
     Friend WithEvents tLabel9 As Label
     Friend WithEvents text91 As Label
-    Friend WithEvents Label1 As Label
-    Friend WithEvents constatus As Label
+    Friend WithEvents Logout As Label
 End Class
