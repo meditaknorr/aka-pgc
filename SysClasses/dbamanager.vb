@@ -192,4 +192,72 @@ Public Class dbamanager
         Return contadorUser
     End Function
 
+    Public Function getUserSessionId(ByVal username) As String
+        contadorUser = 0
+        Dim session As String
+        Dim query As String = "Select sessionid from users where username = '" + username + "'"
+        Me.connectorAdder()
+        comandoMySQl = New MySqlCommand(query, conexaoMySql)
+        leitor = comandoMySQl.ExecuteReader()
+
+        While (leitor.Read())
+            session = leitor.GetString("sessionid")
+        End While
+
+        Return session
+        leitor.Close()
+        Me.connectorRemoverORAdder.Close()
+    End Function
+
+    Public Function getUserId(ByVal sessionid) As Integer
+        contadorUser = 0
+        Dim session As Integer
+        Dim query As String = "Select userid from users where sessionid = '" + sessionid + "'"
+        Me.connectorAdder()
+        comandoMySQl = New MySqlCommand(query, conexaoMySql)
+        leitor = comandoMySQl.ExecuteReader()
+
+        While (leitor.Read())
+            session = leitor.GetString("userid")
+        End While
+
+        Return session
+        leitor.Close()
+        Me.connectorRemoverORAdder.Close()
+    End Function
+
+    Public Function get4rmUsers(ByVal item As String, ByVal userid As Integer) As String
+        contadorUser = 0
+        Dim session As String
+        Dim query As String = "Select " + item + " from users where userid = '" + userid + "'"
+        Me.connectorAdder()
+        comandoMySQl = New MySqlCommand(query, conexaoMySql)
+        leitor = comandoMySQl.ExecuteReader()
+
+        While (leitor.Read())
+            session = leitor.GetString("'" + item + "'")
+        End While
+
+        Return session
+        leitor.Close()
+        Me.connectorRemoverORAdder.Close()
+    End Function
+
+    Public Function get4rmUserProfile(ByVal itemS As String, ByVal userid As Integer) As String
+        contadorUser = 0
+        Dim session As String
+        Dim query As String = "Select " & itemS & " from userprofile where userid = " & userid
+        Me.connectorAdder()
+        comandoMySQl = New MySqlCommand(query, conexaoMySql)
+        leitor = comandoMySQl.ExecuteReader()
+
+        While (leitor.Read())
+            session = leitor.GetString(itemS)
+        End While
+
+        Return session
+        leitor.Close()
+        Me.connectorRemoverORAdder.Close()
+    End Function
+
 End Class

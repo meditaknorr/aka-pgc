@@ -7,7 +7,7 @@ Public Class CDescription
 
     Private Sub CDescription_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         TopMost = True
-        Using writer As StreamWriter = New StreamWriter(IO.Path.GetFullPath(".\HPages\CDescription.html"))
+        Using writer As StreamWriter = New StreamWriter(IO.Path.GetFullPath(".\SysPages\CDescription.html"))
             Dim HTML As String = "
                                 <!DOCTYPE html>
 
@@ -23,6 +23,6 @@ Public Class CDescription
                                 "
             writer.Write(HTML)
         End Using
-        CDBrowser.Navigate("file:///" & IO.Path.GetFullPath(".\HPages\CDescription.html"))
+        CDBrowser.Navigate("file:///" & IO.Path.GetFullPath(".\SysPages\CDescription.html"))
     End Sub
 End Class

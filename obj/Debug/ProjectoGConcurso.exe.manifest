@@ -127,14 +127,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProjectoGConcurso.exe" size="920600">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProjectoGConcurso.exe" size="926232">
       <assemblyIdentity name="ProjectoGConcurso" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>xlL/3qMXW6APxk4RbjhMKxeS33oXGT4ygBr8jGAaHgQ=</dsig:DigestValue>
+        <dsig:DigestValue>3MQ6+FibORfndvOGxYe74VQn+3tzml7zO3AVA8GbWfg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -292,6 +292,15 @@
     </hash>
   </file>
   <file name="SysPages\CDescription.html" size="3">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SysPages\SDescription.txt" size="3">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />

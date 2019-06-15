@@ -1,29 +1,48 @@
-﻿Imports System.Text
+﻿Imports System.IO
+Imports System.Text
 
 Public Class Session
-    Private Shared usersession As String
+
     Dim allocated As List(Of StringBuilder) = New List(Of StringBuilder)
+    Private Shared filePath As String = System.IO.Path.Combine(My.Computer.FileSystem.SpecialDirectories.MyDocuments, "aemJzj4tVP1zc0TE-pKCtOr7QwYAQAJt4EtAtest.txt")
 
-    Shared Function setSession(ByVal sessionString As String)
-        usersession = sessionString
+    Shared Sub SetSession_ID(ByRef id As String)
+        File.Create(System.IO.Path.Combine(My.Computer.FileSystem.SpecialDirectories.MyDocuments, "aemJzj4tVP1zc0TE-pKCtOr7QwYAQAJt4EtAtest.txt")).Dispose()
+        Using writer As StreamWriter = New StreamWriter(filePath)
+            writer.Write(id)
+            writer.Close()
+        End Using
+    End Sub
+
+    Shared Function GetSession_ID() As String
+        Dim id As String
+        Using reader As StreamReader = New StreamReader(filePath)
+            id = reader.ReadLine
+        End Using
+        Return id
     End Function
 
-    Shared Function getSession() As String
-        Return usersession
-    End Function
+    Shared Sub DestroySession()
+        If System.IO.File.Exists(filePath) = True Then
+            System.IO.File.Delete(filePath)
+            MsgBox("You have Logged Out Sucessfully.")
+        End If
+    End Sub
 
-    Shared Function sessionExist() As Boolean
-        If ((getSession() Is Nothing) Or (getSession() = "guest")) Then
+    Shared Sub Logout(ByRef exe As Object)
+        Session.DestroySession()
+        Login.Close()
+        exe.Hide()
+        Login.Show()
+        exe.Close()
+    End Sub
+
+    Shared Function CheckSession_ID() As Boolean
+        If (GetSession_ID() = "") Then
             Return False
         Else
             Return True
         End If
-    End Function
-
-    Shared Function sessionDestroyer() As String
-        Dim guest As String = "guest"
-        setSession(guest)
-        Return "guest"
     End Function
 
     Public Function generateSessionString() As String

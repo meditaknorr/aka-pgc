@@ -378,6 +378,9 @@
     <None Include="Resources\HomeBackground.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="SysPages\SDescription.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="Resources\loadin.gif" />
     <None Include="Resources\xinput.png" />
     <None Include="Resources\Delete_48px.png" />

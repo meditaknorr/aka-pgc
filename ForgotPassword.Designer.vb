@@ -51,7 +51,7 @@ Partial Class ForgotPassword
         Me.backky.AutoSize = True
         Me.backky.BackColor = System.Drawing.Color.Transparent
         Me.backky.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.backky.Font = New System.Drawing.Font("Roboto", 8.25!)
+        Me.backky.Font = New System.Drawing.Font("Roboto", 8.25!, System.Drawing.FontStyle.Bold)
         Me.backky.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.backky.Location = New System.Drawing.Point(12, 9)
         Me.backky.Name = "backky"

@@ -55,3 +55,4 @@ C:\Users\Medi'ta K'norr\Documents\Visual Studio 2015\Projects\ProjectoGConcurso\
 C:\Users\Medi'ta K'norr\Documents\Visual Studio 2015\Projects\ProjectoGConcurso\ProjectoGConcurso\obj\Debug\ProjectoGConcurso.xml
 C:\Users\Medi'ta K'norr\Documents\Visual Studio 2015\Projects\ProjectoGConcurso\ProjectoGConcurso\obj\Debug\ProjectoGConcurso.pdb
 C:\Users\Medi'ta K'norr\Documents\Visual Studio 2015\Projects\ProjectoGConcurso\ProjectoGConcurso\obj\Debug\ProjectoGConcurso.vbprojAssemblyReference.cache
+C:\Users\Medi'ta K'norr\Documents\Visual Studio 2015\Projects\ProjectoGConcurso\ProjectoGConcurso\bin\Debug\SysPages\SDescription.txt

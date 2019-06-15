@@ -36,6 +36,7 @@ Partial Class Login
         Me.inputPasswordbg = New System.Windows.Forms.PictureBox()
         Me.inputUsernamebg = New System.Windows.Forms.PictureBox()
         Me.LoginBg = New System.Windows.Forms.PictureBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         CType(Me.UserIcon, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.loadingPic, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.inputPasswordbg, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -223,6 +224,20 @@ Partial Class Login
         Me.LoginBg.TabIndex = 0
         Me.LoginBg.TabStop = False
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.Label1.Cursor = System.Windows.Forms.Cursors.Default
+        Me.Label1.Font = New System.Drawing.Font("Roboto", 8.25!)
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(14, 778)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(420, 13)
+        Me.Label1.TabIndex = 9
+        Me.Label1.Text = "Before start using, login on our system make sure you have an internet connection" &
+    "."
+        '
         'Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -231,6 +246,7 @@ Partial Class Login
         Me.ClientSize = New System.Drawing.Size(450, 800)
         Me.Controls.Add(Me.UserIcon)
         Me.Controls.Add(Me.loadingPic)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ForgotPasswordlink)
         Me.Controls.Add(Me.ForgotUsernameLink)
         Me.Controls.Add(Me.password)
@@ -270,4 +286,5 @@ Partial Class Login
     Friend WithEvents ForgotPasswordlink As Label
     Friend WithEvents loginButton As Button
     Friend WithEvents loadingPic As PictureBox
+    Friend WithEvents Label1 As Label
 End Class

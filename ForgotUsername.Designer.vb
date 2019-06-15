@@ -48,7 +48,7 @@ Partial Class ForgotUsername
         Me.back.AutoSize = True
         Me.back.BackColor = System.Drawing.Color.Transparent
         Me.back.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.back.Font = New System.Drawing.Font("Roboto", 8.25!)
+        Me.back.Font = New System.Drawing.Font("Roboto", 8.25!, System.Drawing.FontStyle.Bold)
         Me.back.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.back.Location = New System.Drawing.Point(12, 9)
         Me.back.Name = "back"
@@ -81,7 +81,7 @@ Partial Class ForgotUsername
         Me.rememberButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.rememberButton.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold)
         Me.rememberButton.ForeColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(90, Byte), Integer))
-        Me.rememberButton.Location = New System.Drawing.Point(73, 544)
+        Me.rememberButton.Location = New System.Drawing.Point(73, 542)
         Me.rememberButton.Name = "rememberButton"
         Me.rememberButton.Size = New System.Drawing.Size(300, 50)
         Me.rememberButton.TabIndex = 13

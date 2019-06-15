@@ -80,6 +80,7 @@ Partial Class Home
         Me.tLabel9 = New System.Windows.Forms.Label()
         Me.text91 = New System.Windows.Forms.Label()
         Me.Logout = New System.Windows.Forms.Label()
+        Me.sessionid = New System.Windows.Forms.Label()
         Me.TilesPanel.SuspendLayout()
         Me.Tile.SuspendLayout()
         Me.Tile2.SuspendLayout()
@@ -816,13 +817,26 @@ Partial Class Home
         Me.Logout.AutoSize = True
         Me.Logout.BackColor = System.Drawing.Color.Transparent
         Me.Logout.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Logout.Font = New System.Drawing.Font("Roboto", 8.25!)
+        Me.Logout.Font = New System.Drawing.Font("Roboto Medium", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Logout.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Logout.Location = New System.Drawing.Point(12, 9)
         Me.Logout.Name = "Logout"
-        Me.Logout.Size = New System.Drawing.Size(41, 13)
+        Me.Logout.Size = New System.Drawing.Size(47, 13)
         Me.Logout.TabIndex = 10
         Me.Logout.Text = "Logout"
+        '
+        'sessionid
+        '
+        Me.sessionid.AutoSize = True
+        Me.sessionid.BackColor = System.Drawing.Color.Transparent
+        Me.sessionid.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.sessionid.Font = New System.Drawing.Font("Roboto Medium", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.sessionid.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.sessionid.Location = New System.Drawing.Point(1075, 27)
+        Me.sessionid.Name = "sessionid"
+        Me.sessionid.Size = New System.Drawing.Size(66, 13)
+        Me.sessionid.TabIndex = 10
+        Me.sessionid.Text = "Username"
         '
         'Home
         '
@@ -834,6 +848,7 @@ Partial Class Home
         Me.ClientSize = New System.Drawing.Size(1200, 800)
         Me.Controls.Add(Me.TilesPanel)
         Me.Controls.Add(Me.toLogin)
+        Me.Controls.Add(Me.sessionid)
         Me.Controls.Add(Me.Logout)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.MaximizeBox = False
@@ -922,4 +937,5 @@ Partial Class Home
     Friend WithEvents tLabel9 As Label
     Friend WithEvents text91 As Label
     Friend WithEvents Logout As Label
+    Friend WithEvents sessionid As Label
 End Class

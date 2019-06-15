@@ -1,4 +1,6 @@
-﻿Public Class Login
+﻿Imports System.IO
+
+Public Class Login
     Dim dba As New dbamanager()
 
     Private Sub Login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -82,26 +84,44 @@
         loadingPic.Show()
         Dim user As String = username.Text()
         Dim psw As String = password.Text()
+        Dim guestuder As String = "'username'"
+        Dim guestpsw As String = "'password'"
 
-        If (dba.loginStatus(user, psw)) Then
-            Me.Close()
-            UserBoard.Show()
-        Else
-            MsgBox("Incorrect username or password. Please try again using the correct credentials.")
-            password.PasswordChar = ControlChars.NullChar
-            username.Text = "'username'"
-            password.Text = "'password'"
+        If (user = guestuder) Then
+
+            MsgBox("Username field is yet not set. Please review the details and try again")
             loadingPic.Hide()
+        ElseIf (psw = guestpsw) Then
+
+            MsgBox("Password field is not set. Please review the details and try again")
+            loadingPic.Hide()
+        Else
+
+            If (dba.loginStatus(user, psw)) Then
+                Session.SetSession_ID(dba.getUserSessionId(user))
+                Me.Hide()
+                Home.Show()
+            Else
+                MsgBox("Incorrect username or password. Please try again using the correct credentials.")
+                password.PasswordChar = ControlChars.NullChar
+                username.Text = "'username'"
+                password.Text = "'password'"
+                loadingPic.Hide()
+            End If
+
         End If
+
     End Sub
 
     Private Sub ForgotDetailsLink_Click(sender As Object, e As EventArgs) Handles ForgotUsernameLink.Click
         Me.Hide()
         ForgotUsername.Show()
+
     End Sub
 
     Private Sub ForgotPasswordlink_Click(sender As Object, e As EventArgs) Handles ForgotPasswordlink.Click
         Me.Hide()
         ForgotPassword.Show()
+
     End Sub
 End Class
