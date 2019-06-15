@@ -226,16 +226,16 @@ Public Class dbamanager
         Me.connectorRemoverORAdder.Close()
     End Function
 
-    Public Function get4rmUsers(ByVal item As String, ByVal userid As Integer) As String
+    Public Function get4rmUsers(ByVal itemS As String, ByVal userid As Integer) As String
         contadorUser = 0
         Dim session As String
-        Dim query As String = "Select " + item + " from users where userid = '" + userid + "'"
+        Dim query As String = "Select " & itemS & " from users where userid = '" & userid & "'"
         Me.connectorAdder()
         comandoMySQl = New MySqlCommand(query, conexaoMySql)
         leitor = comandoMySQl.ExecuteReader()
 
         While (leitor.Read())
-            session = leitor.GetString("'" + item + "'")
+            session = leitor.GetString(itemS)
         End While
 
         Return session

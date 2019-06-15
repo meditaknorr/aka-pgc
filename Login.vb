@@ -11,12 +11,8 @@ Public Class Login
         Me.WindowState = FormWindowState.Minimized
     End Sub
 
-    Private Sub maximize_Click(sender As Object, e As EventArgs) Handles maximize.Click
-        'Me.WindowState = FormWindowState.Maximized
-    End Sub
-
-    Private Sub closer_Click(sender As Object, e As EventArgs) Handles closer.Click
-        Application.ExitThread()
+    Private Sub closer_Click(sender As Object, e As EventArgs) Handles CloseApp.Click
+        Me.Close()
     End Sub
 
     Private Sub inputUsernamebg_Click(sender As Object, e As EventArgs) Handles inputUsernamebg.Click
@@ -116,12 +112,18 @@ Public Class Login
     Private Sub ForgotDetailsLink_Click(sender As Object, e As EventArgs) Handles ForgotUsernameLink.Click
         Me.Hide()
         ForgotUsername.Show()
-
     End Sub
 
     Private Sub ForgotPasswordlink_Click(sender As Object, e As EventArgs) Handles ForgotPasswordlink.Click
         Me.Hide()
         ForgotPassword.Show()
+    End Sub
 
+    Private Sub Minimize_MouseEnter(sender As Object, e As EventArgs) Handles minimize.MouseHover, CloseApp.MouseHover
+        Style.Link_MouseHover(sender)
+    End Sub
+
+    Private Sub Minimize_MouseLeave(sender As Object, e As EventArgs) Handles minimize.MouseLeave, CloseApp.MouseLeave
+        Style.Link(sender)
     End Sub
 End Class

@@ -249,6 +249,7 @@
       <DependentUpon>pgcDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="SysClasses\Session.vb" />
+    <Compile Include="SysClasses\Style.vb" />
     <Compile Include="UserBoard.Designer.vb">
       <DependentUpon>UserBoard.vb</DependentUpon>
     </Compile>

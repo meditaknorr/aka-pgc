@@ -79,8 +79,10 @@ Partial Class Home
         Me.reference9 = New System.Windows.Forms.Label()
         Me.tLabel9 = New System.Windows.Forms.Label()
         Me.text91 = New System.Windows.Forms.Label()
-        Me.Logout = New System.Windows.Forms.Label()
-        Me.sessionid = New System.Windows.Forms.Label()
+        Me.CloseApp = New System.Windows.Forms.Label()
+        Me.userprofilename = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.LogoutSession = New System.Windows.Forms.Label()
         Me.TilesPanel.SuspendLayout()
         Me.Tile.SuspendLayout()
         Me.Tile2.SuspendLayout()
@@ -812,31 +814,59 @@ Partial Class Home
         Me.text91.Text = "Bicicletas e De Alimenticios"
         Me.text91.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Logout
+        'CloseApp
         '
-        Me.Logout.AutoSize = True
-        Me.Logout.BackColor = System.Drawing.Color.Transparent
-        Me.Logout.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Logout.Font = New System.Drawing.Font("Roboto Medium", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Logout.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Logout.Location = New System.Drawing.Point(12, 9)
-        Me.Logout.Name = "Logout"
-        Me.Logout.Size = New System.Drawing.Size(47, 13)
-        Me.Logout.TabIndex = 10
-        Me.Logout.Text = "Logout"
+        Me.CloseApp.AutoSize = True
+        Me.CloseApp.BackColor = System.Drawing.Color.Transparent
+        Me.CloseApp.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.CloseApp.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.CloseApp.ForeColor = System.Drawing.Color.Gray
+        Me.CloseApp.Location = New System.Drawing.Point(12, 9)
+        Me.CloseApp.Name = "CloseApp"
+        Me.CloseApp.Size = New System.Drawing.Size(40, 15)
+        Me.CloseApp.TabIndex = 10
+        Me.CloseApp.Text = "Close"
         '
-        'sessionid
+        'userprofilename
         '
-        Me.sessionid.AutoSize = True
-        Me.sessionid.BackColor = System.Drawing.Color.Transparent
-        Me.sessionid.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.sessionid.Font = New System.Drawing.Font("Roboto Medium", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.sessionid.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.sessionid.Location = New System.Drawing.Point(1075, 27)
-        Me.sessionid.Name = "sessionid"
-        Me.sessionid.Size = New System.Drawing.Size(66, 13)
-        Me.sessionid.TabIndex = 10
-        Me.sessionid.Text = "Username"
+        Me.userprofilename.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.userprofilename.AutoEllipsis = True
+        Me.userprofilename.BackColor = System.Drawing.Color.Transparent
+        Me.userprofilename.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.userprofilename.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.userprofilename.ForeColor = System.Drawing.Color.Gray
+        Me.userprofilename.Location = New System.Drawing.Point(909, 27)
+        Me.userprofilename.Name = "userprofilename"
+        Me.userprofilename.Size = New System.Drawing.Size(213, 16)
+        Me.userprofilename.TabIndex = 10
+        Me.userprofilename.Text = "Username"
+        Me.userprofilename.TextAlign = System.Drawing.ContentAlignment.TopRight
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Cursor = System.Windows.Forms.Cursors.Default
+        Me.Label1.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(62, 9)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(10, 15)
+        Me.Label1.TabIndex = 10
+        Me.Label1.Text = "|"
+        '
+        'LogoutSession
+        '
+        Me.LogoutSession.AutoSize = True
+        Me.LogoutSession.BackColor = System.Drawing.Color.Transparent
+        Me.LogoutSession.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.LogoutSession.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.LogoutSession.ForeColor = System.Drawing.Color.Gray
+        Me.LogoutSession.Location = New System.Drawing.Point(80, 9)
+        Me.LogoutSession.Name = "LogoutSession"
+        Me.LogoutSession.Size = New System.Drawing.Size(46, 15)
+        Me.LogoutSession.TabIndex = 10
+        Me.LogoutSession.Text = "Logout"
         '
         'Home
         '
@@ -848,8 +878,10 @@ Partial Class Home
         Me.ClientSize = New System.Drawing.Size(1200, 800)
         Me.Controls.Add(Me.TilesPanel)
         Me.Controls.Add(Me.toLogin)
-        Me.Controls.Add(Me.sessionid)
-        Me.Controls.Add(Me.Logout)
+        Me.Controls.Add(Me.userprofilename)
+        Me.Controls.Add(Me.LogoutSession)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.CloseApp)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.MaximizeBox = False
         Me.MaximumSize = New System.Drawing.Size(1200, 800)
@@ -936,6 +968,8 @@ Partial Class Home
     Friend WithEvents reference9 As Label
     Friend WithEvents tLabel9 As Label
     Friend WithEvents text91 As Label
-    Friend WithEvents Logout As Label
-    Friend WithEvents sessionid As Label
+    Friend WithEvents CloseApp As Label
+    Friend WithEvents userprofilename As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents LogoutSession As Label
 End Class

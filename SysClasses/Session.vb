@@ -6,6 +6,7 @@ Public Class Session
     Dim allocated As List(Of StringBuilder) = New List(Of StringBuilder)
     Private Shared filePath As String = System.IO.Path.Combine(My.Computer.FileSystem.SpecialDirectories.MyDocuments, "aemJzj4tVP1zc0TE-pKCtOr7QwYAQAJt4EtAtest.txt")
 
+    'cria a variavel de sessao e guarda no computador na pasta myDocuments
     Shared Sub SetSession_ID(ByRef id As String)
         File.Create(System.IO.Path.Combine(My.Computer.FileSystem.SpecialDirectories.MyDocuments, "aemJzj4tVP1zc0TE-pKCtOr7QwYAQAJt4EtAtest.txt")).Dispose()
         Using writer As StreamWriter = New StreamWriter(filePath)
@@ -14,6 +15,7 @@ Public Class Session
         End Using
     End Sub
 
+    'obtem a variavel da sessao
     Shared Function GetSession_ID() As String
         Dim id As String
         Using reader As StreamReader = New StreamReader(filePath)
@@ -22,6 +24,7 @@ Public Class Session
         Return id
     End Function
 
+    'destroi a variavel da sessao apagando o da pasta de myDocuments
     Shared Sub DestroySession()
         If System.IO.File.Exists(filePath) = True Then
             System.IO.File.Delete(filePath)
@@ -29,7 +32,8 @@ Public Class Session
         End If
     End Sub
 
-    Shared Sub Logout(ByRef exe As Object)
+    'termina a sessao
+    Shared Sub LogoutApp(ByRef exe As Object)
         Session.DestroySession()
         Login.Close()
         exe.Hide()
@@ -37,6 +41,14 @@ Public Class Session
         exe.Close()
     End Sub
 
+    'fecha a app toda e destroi a sessao
+    Shared Sub CloseApp(ByRef exe As Object)
+        Session.DestroySession()
+        exe.Close()
+        Login.Close()
+    End Sub
+
+    'verifica se existe sessao ou nao
     Shared Function CheckSession_ID() As Boolean
         If (GetSession_ID() = "") Then
             Return False
@@ -45,6 +57,7 @@ Public Class Session
         End If
     End Function
 
+    'cria uma string a ser usada como session string
     Public Function generateSessionString() As String
         Dim s As String = "abcdefghijklmnopqrstuvwxz=_/|\-ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
         Dim r As Random = New Random

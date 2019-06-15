@@ -30,13 +30,13 @@ Partial Class Login
         Me.UserIcon = New System.Windows.Forms.PictureBox()
         Me.loadingPic = New System.Windows.Forms.PictureBox()
         Me.loginButton = New System.Windows.Forms.Button()
-        Me.maximize = New System.Windows.Forms.Button()
-        Me.minimize = New System.Windows.Forms.Button()
-        Me.closer = New System.Windows.Forms.Button()
         Me.inputPasswordbg = New System.Windows.Forms.PictureBox()
         Me.inputUsernamebg = New System.Windows.Forms.PictureBox()
         Me.LoginBg = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.minimize = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.CloseApp = New System.Windows.Forms.Label()
         CType(Me.UserIcon, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.loadingPic, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.inputPasswordbg, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -143,55 +143,6 @@ Partial Class Login
         Me.loginButton.Text = "login"
         Me.loginButton.UseVisualStyleBackColor = False
         '
-        'maximize
-        '
-        Me.maximize.BackgroundImage = CType(resources.GetObject("maximize.BackgroundImage"), System.Drawing.Image)
-        Me.maximize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.maximize.Cursor = System.Windows.Forms.Cursors.Default
-        Me.maximize.FlatAppearance.BorderColor = System.Drawing.Color.White
-        Me.maximize.FlatAppearance.BorderSize = 0
-        Me.maximize.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.maximize.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.maximize.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.maximize.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.maximize.Location = New System.Drawing.Point(60, 12)
-        Me.maximize.Name = "maximize"
-        Me.maximize.Size = New System.Drawing.Size(20, 20)
-        Me.maximize.TabIndex = 2
-        Me.maximize.UseVisualStyleBackColor = True
-        '
-        'minimize
-        '
-        Me.minimize.BackgroundImage = CType(resources.GetObject("minimize.BackgroundImage"), System.Drawing.Image)
-        Me.minimize.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.minimize.FlatAppearance.BorderColor = System.Drawing.Color.White
-        Me.minimize.FlatAppearance.BorderSize = 0
-        Me.minimize.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.minimize.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.minimize.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.minimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.minimize.Location = New System.Drawing.Point(36, 12)
-        Me.minimize.Name = "minimize"
-        Me.minimize.Size = New System.Drawing.Size(20, 20)
-        Me.minimize.TabIndex = 3
-        Me.minimize.UseVisualStyleBackColor = True
-        '
-        'closer
-        '
-        Me.closer.BackgroundImage = CType(resources.GetObject("closer.BackgroundImage"), System.Drawing.Image)
-        Me.closer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.closer.FlatAppearance.BorderColor = System.Drawing.Color.White
-        Me.closer.FlatAppearance.BorderSize = 0
-        Me.closer.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.closer.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
-        Me.closer.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
-        Me.closer.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.closer.Location = New System.Drawing.Point(12, 12)
-        Me.closer.Name = "closer"
-        Me.closer.Size = New System.Drawing.Size(20, 20)
-        Me.closer.TabIndex = 4
-        Me.closer.UseVisualStyleBackColor = True
-        '
         'inputPasswordbg
         '
         Me.inputPasswordbg.Cursor = System.Windows.Forms.Cursors.IBeam
@@ -238,12 +189,54 @@ Partial Class Login
         Me.Label1.Text = "Before start using, login on our system make sure you have an internet connection" &
     "."
         '
+        'minimize
+        '
+        Me.minimize.AutoSize = True
+        Me.minimize.BackColor = System.Drawing.Color.Transparent
+        Me.minimize.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.minimize.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.minimize.ForeColor = System.Drawing.Color.Gray
+        Me.minimize.Location = New System.Drawing.Point(80, 9)
+        Me.minimize.Name = "minimize"
+        Me.minimize.Size = New System.Drawing.Size(59, 15)
+        Me.minimize.TabIndex = 11
+        Me.minimize.Text = "Minimize"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Cursor = System.Windows.Forms.Cursors.Default
+        Me.Label3.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label3.Location = New System.Drawing.Point(62, 9)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(10, 15)
+        Me.Label3.TabIndex = 12
+        Me.Label3.Text = "|"
+        '
+        'CloseApp
+        '
+        Me.CloseApp.AutoSize = True
+        Me.CloseApp.BackColor = System.Drawing.Color.Transparent
+        Me.CloseApp.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.CloseApp.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.CloseApp.ForeColor = System.Drawing.Color.Gray
+        Me.CloseApp.Location = New System.Drawing.Point(12, 9)
+        Me.CloseApp.Name = "CloseApp"
+        Me.CloseApp.Size = New System.Drawing.Size(40, 15)
+        Me.CloseApp.TabIndex = 13
+        Me.CloseApp.Text = "Close"
+        '
         'Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(450, 800)
+        Me.Controls.Add(Me.minimize)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.CloseApp)
         Me.Controls.Add(Me.UserIcon)
         Me.Controls.Add(Me.loadingPic)
         Me.Controls.Add(Me.Label1)
@@ -252,9 +245,6 @@ Partial Class Login
         Me.Controls.Add(Me.password)
         Me.Controls.Add(Me.username)
         Me.Controls.Add(Me.loginButton)
-        Me.Controls.Add(Me.maximize)
-        Me.Controls.Add(Me.minimize)
-        Me.Controls.Add(Me.closer)
         Me.Controls.Add(Me.inputPasswordbg)
         Me.Controls.Add(Me.inputUsernamebg)
         Me.Controls.Add(Me.LoginBg)
@@ -274,9 +264,6 @@ Partial Class Login
     End Sub
 
     Friend WithEvents LoginBg As PictureBox
-    Friend WithEvents maximize As Button
-    Friend WithEvents minimize As Button
-    Friend WithEvents closer As Button
     Friend WithEvents UserIcon As PictureBox
     Friend WithEvents inputUsernamebg As PictureBox
     Friend WithEvents username As TextBox
@@ -287,4 +274,7 @@ Partial Class Login
     Friend WithEvents loginButton As Button
     Friend WithEvents loadingPic As PictureBox
     Friend WithEvents Label1 As Label
+    Friend WithEvents minimize As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents CloseApp As Label
 End Class
