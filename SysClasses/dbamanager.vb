@@ -10,7 +10,7 @@ Public Class dbamanager
     Private comandoMySQl As MySqlCommand
     Private leitor As MySqlDataReader
     Private estadoMySQL As String
-    Private ServidorMySQl As String = "127.0.0.1"
+    Private ServidorMySQl As String = "remotemysql.com"
     Private portaMYSQL As Integer = 3306
     Private contadorMySql As Integer
     Private contadorUser As Integer
