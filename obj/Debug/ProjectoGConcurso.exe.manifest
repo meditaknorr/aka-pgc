@@ -127,14 +127,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProjectoGConcurso.exe" size="927256">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ProjectoGConcurso.exe" size="1257496">
       <assemblyIdentity name="ProjectoGConcurso" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>D+uuKGjDAMVbsPx21gXp578Y9FIJzxOONUMiRPZBM9Q=</dsig:DigestValue>
+        <dsig:DigestValue>tdatH6dfndUXPmM9LGGJO9FTBFkHwNMhP+jRqN8l+5s=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -271,6 +271,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>RUux4m4+S5JEaQ3rTbJTeF351/ApX7rR6vnLCi/tnpc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SonicCalendarControl.ocx" size="118784">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8PrlTfb5QeSyg/RK45uleC1dqDpVGdqbgVxzCurAnpc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="SysPages\About.html" size="171">

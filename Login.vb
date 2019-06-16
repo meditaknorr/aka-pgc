@@ -95,8 +95,15 @@ Public Class Login
 
             If (dba.loginStatus(user, psw)) Then
                 Session.SetSession_ID(dba.getUserSessionId(user))
-                Me.Hide()
-                Home.Show()
+                If (dba.ProfileExist(dba.getUserId(dba.getUserSessionId(user))) > 0) Then
+                    'tem perfil
+                    Me.Hide()
+                    Home.Show()
+                Else
+                    'nao tem perfil
+                    Me.Hide()
+                    CUserProfileCreator.Show()
+                End If
             Else
                 MsgBox("Incorrect username or password. Please try again using the correct credentials.")
                 password.PasswordChar = ControlChars.NullChar
@@ -125,5 +132,17 @@ Public Class Login
 
     Private Sub Minimize_MouseLeave(sender As Object, e As EventArgs) Handles minimize.MouseLeave, CloseApp.MouseLeave
         Style.Link(sender)
+    End Sub
+
+    Private Sub Username_KeyDown(sender As Object, e As KeyEventArgs) Handles username.KeyDown
+        If (e.KeyCode = Keys.Enter) Then
+            password.Focus()
+        End If
+    End Sub
+
+    Private Sub Password_KeyDown(sender As Object, e As KeyEventArgs) Handles password.KeyDown
+        If (e.KeyCode = Keys.Enter) Then
+            loginButton.PerformClick()
+        End If
     End Sub
 End Class

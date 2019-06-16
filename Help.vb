@@ -1,6 +1,6 @@
 ﻿Imports System.IO
-Public Class CDescription
-    Private Sub closer_Click(sender As Object, e As EventArgs) Handles closer.Click, Button1.Click
+Public Class Help
+    Private Sub closer_Click(sender As Object, e As EventArgs) Handles closer.Click
         Me.Close()
         Home.Show()
     End Sub

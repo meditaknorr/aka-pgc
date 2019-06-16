@@ -145,20 +145,32 @@
   <data name="enter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\enter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="HomeBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HomeBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="apply" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\apply.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="cinput1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cinput1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="homeBg2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\homeBg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="file (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\circle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="BGTile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BGTile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="input" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\input.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="notepad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\notepad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calendar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calendar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Male User_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Male User_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,6 +181,9 @@
   <data name="backg2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\backg2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="homeBg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\homeBg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -178,11 +193,17 @@
   <data name="cinput" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cinput.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="maximize-disabled-mini" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\maximize-disabled-mini.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="homeBg2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\homeBg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Help_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Help_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="loadin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\loadin.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Schedule_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Schedule_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="applyit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\applyit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,14 +211,29 @@
   <data name="long-input" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\long-input.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="test" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\test.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="minimize" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\minimize.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="User Male Skin Type 5_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\User Male Skin Type 5_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="file (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="formbg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formbg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="maximize-disabled-mini" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\maximize-disabled-mini.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Add User Male_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Add User Male_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="long-input2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\long-input2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="notebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\notebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="User Male_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\User Male_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,23 +244,44 @@
   <data name="long-input-long1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\long-input-long1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Denied_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Denied_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="close-mini" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close-mini.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="close" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="HomeBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\HomeBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="planning" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\planning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="interview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\interview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="User Male Skin Type 5_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\User Male Skin Type 5_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="backg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\backg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Tiles" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Tiles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="test1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\test1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="addattach" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addattach.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="file" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\file.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Delete_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Delete_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mobile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mobile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cinput1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cinput1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -232,10 +289,16 @@
   <data name="long-input1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\long-input1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="BGTile1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BGTile1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="maximize-disabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\maximize-disabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="addattach" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\addattach.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Tiles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tiles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Todo List_48px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Todo List_48px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

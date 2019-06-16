@@ -8,218 +8,323 @@ ProjectoGConcurso
 <members>
 <member name="T:ProjectoGConcurso.My.Resources.Resources">
 <summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
+  Uma classe de recurso de tipo de alta segurança, para pesquisar cadeias de caracteres localizadas etc.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.ResourceManager">
 <summary>
-  Returns the cached ResourceManager instance used by this class.
+  Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.Culture">
 <summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
+  Substitui a propriedade CurrentUICulture do thread atual para todas as
+  pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
+</summary>
+</member>
+<member name="P:ProjectoGConcurso.My.Resources.Resources.Add_User_Male_48px">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.addattach">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.animated_loading__by__amiri">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.apply">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.apply1">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.applyit">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.back">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.backg">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.backg2">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.backg22">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectoGConcurso.My.Resources.Resources.BGTile">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectoGConcurso.My.Resources.Resources.BGTile1">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectoGConcurso.My.Resources.Resources.calendar">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.cinput">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.cinput1">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.circle">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.Circled_User_Male_Skin_Type_4_96px">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.close">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.close_mini">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.Delete_48px">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectoGConcurso.My.Resources.Resources.Denied_48px">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.enter">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectoGConcurso.My.Resources.Resources.file">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectoGConcurso.My.Resources.Resources.file__1_">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectoGConcurso.My.Resources.Resources.file__2_">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectoGConcurso.My.Resources.Resources.file__3_">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectoGConcurso.My.Resources.Resources.formbg">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.Hback">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectoGConcurso.My.Resources.Resources.Help_48px">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.HomeBackground">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.homeBg">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.homeBg2">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.input">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectoGConcurso.My.Resources.Resources.interview">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.loadin">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.long_input">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.long_input_long">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.long_input_long1">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.long_input1">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.long_input2">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.Male_User_48px">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.maximize">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.maximize_disabled">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.maximize_disabled_mini">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.maximize_disabledC">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.minimize">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.minimize_mini">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectoGConcurso.My.Resources.Resources.mobile">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectoGConcurso.My.Resources.Resources.notebook">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectoGConcurso.My.Resources.Resources.notepad">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.Octo">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectoGConcurso.My.Resources.Resources.planning">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectoGConcurso.My.Resources.Resources.Schedule_48px">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectoGConcurso.My.Resources.Resources.test">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectoGConcurso.My.Resources.Resources.test1">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.Tiles">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectoGConcurso.My.Resources.Resources.Todo_List_48px">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:ProjectoGConcurso.My.Resources.Resources.user">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.User_Male_96px">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.User_Male_Skin_Type_5_96px">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:ProjectoGConcurso.My.Resources.Resources.xinput">
 <summary>
-  Looks up a localized resource of type System.Drawing.Bitmap.
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="T:ProjectoGConcurso.pgcDataSet">

@@ -26,73 +26,60 @@ Partial Class Home
         Me.toLogin = New System.Windows.Forms.Button()
         Me.TilesPanel = New System.Windows.Forms.FlowLayoutPanel()
         Me.Tile = New System.Windows.Forms.Panel()
-        Me.text12 = New System.Windows.Forms.Label()
-        Me.company1 = New System.Windows.Forms.Label()
-        Me.reference1 = New System.Windows.Forms.Label()
-        Me.tLabel = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.text11 = New System.Windows.Forms.Label()
         Me.Tile2 = New System.Windows.Forms.Panel()
-        Me.text22 = New System.Windows.Forms.Label()
-        Me.company2 = New System.Windows.Forms.Label()
-        Me.reference2 = New System.Windows.Forms.Label()
-        Me.tLabel2 = New System.Windows.Forms.Label()
-        Me.text21 = New System.Windows.Forms.Label()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.Tile3 = New System.Windows.Forms.Panel()
-        Me.text32 = New System.Windows.Forms.Label()
-        Me.company3 = New System.Windows.Forms.Label()
-        Me.reference3 = New System.Windows.Forms.Label()
-        Me.tLabel3 = New System.Windows.Forms.Label()
-        Me.text31 = New System.Windows.Forms.Label()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.Tile4 = New System.Windows.Forms.Panel()
-        Me.text42 = New System.Windows.Forms.Label()
-        Me.company4 = New System.Windows.Forms.Label()
-        Me.reference4 = New System.Windows.Forms.Label()
-        Me.tLabel4 = New System.Windows.Forms.Label()
-        Me.text41 = New System.Windows.Forms.Label()
-        Me.Tile5 = New System.Windows.Forms.Panel()
-        Me.text52 = New System.Windows.Forms.Label()
-        Me.company5 = New System.Windows.Forms.Label()
-        Me.reference5 = New System.Windows.Forms.Label()
-        Me.tLabel5 = New System.Windows.Forms.Label()
-        Me.text51 = New System.Windows.Forms.Label()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.Tile6 = New System.Windows.Forms.Panel()
-        Me.text62 = New System.Windows.Forms.Label()
-        Me.company6 = New System.Windows.Forms.Label()
-        Me.reference6 = New System.Windows.Forms.Label()
-        Me.tLabel6 = New System.Windows.Forms.Label()
-        Me.text61 = New System.Windows.Forms.Label()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.Tile7 = New System.Windows.Forms.Panel()
-        Me.text72 = New System.Windows.Forms.Label()
-        Me.company7 = New System.Windows.Forms.Label()
-        Me.reference7 = New System.Windows.Forms.Label()
-        Me.tLabel7 = New System.Windows.Forms.Label()
-        Me.text71 = New System.Windows.Forms.Label()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.Label6 = New System.Windows.Forms.Label()
         Me.Tile8 = New System.Windows.Forms.Panel()
-        Me.text82 = New System.Windows.Forms.Label()
-        Me.company8 = New System.Windows.Forms.Label()
-        Me.reference8 = New System.Windows.Forms.Label()
-        Me.tLabel8 = New System.Windows.Forms.Label()
-        Me.text81 = New System.Windows.Forms.Label()
+        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.Tile9 = New System.Windows.Forms.Panel()
-        Me.text92 = New System.Windows.Forms.Label()
-        Me.company9 = New System.Windows.Forms.Label()
-        Me.reference9 = New System.Windows.Forms.Label()
-        Me.tLabel9 = New System.Windows.Forms.Label()
-        Me.text91 = New System.Windows.Forms.Label()
+        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
+        Me.Label9 = New System.Windows.Forms.Label()
         Me.CloseApp = New System.Windows.Forms.Label()
         Me.userprofilename = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.LogoutSession = New System.Windows.Forms.Label()
+        Me.minimize = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
+        Me.Label12 = New System.Windows.Forms.Label()
         Me.TilesPanel.SuspendLayout()
         Me.Tile.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Tile2.SuspendLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Tile3.SuspendLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Tile4.SuspendLayout()
-        Me.Tile5.SuspendLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Tile6.SuspendLayout()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Tile7.SuspendLayout()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Tile8.SuspendLayout()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Tile9.SuspendLayout()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'toLogin
@@ -106,25 +93,26 @@ Partial Class Home
         Me.toLogin.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White
         Me.toLogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White
         Me.toLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.toLogin.Location = New System.Drawing.Point(1140, 8)
+        Me.toLogin.Location = New System.Drawing.Point(1140, 9)
         Me.toLogin.Name = "toLogin"
-        Me.toLogin.Size = New System.Drawing.Size(48, 48)
+        Me.toLogin.Size = New System.Drawing.Size(48, 47)
         Me.toLogin.TabIndex = 1
         Me.toLogin.UseVisualStyleBackColor = True
         '
         'TilesPanel
         '
+        Me.TilesPanel.BackColor = System.Drawing.Color.Transparent
         Me.TilesPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.TilesPanel.Controls.Add(Me.Tile)
         Me.TilesPanel.Controls.Add(Me.Tile2)
         Me.TilesPanel.Controls.Add(Me.Tile3)
         Me.TilesPanel.Controls.Add(Me.Tile4)
-        Me.TilesPanel.Controls.Add(Me.Tile5)
         Me.TilesPanel.Controls.Add(Me.Tile6)
         Me.TilesPanel.Controls.Add(Me.Tile7)
         Me.TilesPanel.Controls.Add(Me.Tile8)
         Me.TilesPanel.Controls.Add(Me.Tile9)
-        Me.TilesPanel.Location = New System.Drawing.Point(166, 120)
+        Me.TilesPanel.Controls.Add(Me.Panel1)
+        Me.TilesPanel.Location = New System.Drawing.Point(154, 101)
         Me.TilesPanel.Name = "TilesPanel"
         Me.TilesPanel.Size = New System.Drawing.Size(868, 608)
         Me.TilesPanel.TabIndex = 10
@@ -132,11 +120,9 @@ Partial Class Home
         'Tile
         '
         Me.Tile.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Tile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Tile.Controls.Add(Me.text12)
-        Me.Tile.Controls.Add(Me.company1)
-        Me.Tile.Controls.Add(Me.reference1)
-        Me.Tile.Controls.Add(Me.tLabel)
+        Me.Tile.BackgroundImage = Global.ProjectoGConcurso.My.Resources.Resources.BGTile1
+        Me.Tile.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Tile.Controls.Add(Me.PictureBox1)
         Me.Tile.Controls.Add(Me.text11)
         Me.Tile.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Tile.Location = New System.Drawing.Point(10, 10)
@@ -146,75 +132,35 @@ Partial Class Home
         Me.Tile.Size = New System.Drawing.Size(269, 181)
         Me.Tile.TabIndex = 0
         '
-        'text12
+        'PictureBox1
         '
-        Me.text12.AutoSize = True
-        Me.text12.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.text12.ForeColor = System.Drawing.Color.DimGray
-        Me.text12.Location = New System.Drawing.Point(32, 80)
-        Me.text12.Name = "text12"
-        Me.text12.Size = New System.Drawing.Size(207, 19)
-        Me.text12.TabIndex = 0
-        Me.text12.Text = "Bicicletas e De Alimenticios"
-        Me.text12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'company1
-        '
-        Me.company1.AutoSize = True
-        Me.company1.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.company1.ForeColor = System.Drawing.Color.Gray
-        Me.company1.Location = New System.Drawing.Point(32, 104)
-        Me.company1.Name = "company1"
-        Me.company1.Size = New System.Drawing.Size(216, 15)
-        Me.company1.TabIndex = 0
-        Me.company1.Text = "Concurso publico para provimento de"
-        Me.company1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'reference1
-        '
-        Me.reference1.AutoSize = True
-        Me.reference1.Font = New System.Drawing.Font("Roboto", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.reference1.ForeColor = System.Drawing.Color.Gray
-        Me.reference1.Location = New System.Drawing.Point(152, 152)
-        Me.reference1.Name = "reference1"
-        Me.reference1.Size = New System.Drawing.Size(106, 14)
-        Me.reference1.TabIndex = 0
-        Me.reference1.Text = "Ref:#0000000ABC"
-        Me.reference1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'tLabel
-        '
-        Me.tLabel.AutoSize = True
-        Me.tLabel.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tLabel.ForeColor = System.Drawing.Color.Gray
-        Me.tLabel.Location = New System.Drawing.Point(32, 32)
-        Me.tLabel.Name = "tLabel"
-        Me.tLabel.Size = New System.Drawing.Size(216, 15)
-        Me.tLabel.TabIndex = 0
-        Me.tLabel.Text = "Concurso publico para provimento de"
-        Me.tLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.PictureBox1.Image = Global.ProjectoGConcurso.My.Resources.Resources.file__1_
+        Me.PictureBox1.Location = New System.Drawing.Point(83, 21)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(100, 102)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 1
+        Me.PictureBox1.TabStop = False
         '
         'text11
         '
         Me.text11.AutoSize = True
         Me.text11.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.text11.ForeColor = System.Drawing.Color.DimGray
-        Me.text11.Location = New System.Drawing.Point(32, 56)
+        Me.text11.Location = New System.Drawing.Point(54, 137)
         Me.text11.Name = "text11"
-        Me.text11.Size = New System.Drawing.Size(207, 19)
+        Me.text11.Size = New System.Drawing.Size(151, 19)
         Me.text11.TabIndex = 0
-        Me.text11.Text = "Bicicletas e De Alimenticios"
+        Me.text11.Text = "Create a Concourse"
         Me.text11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Tile2
         '
         Me.Tile2.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Tile2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Tile2.Controls.Add(Me.text22)
-        Me.Tile2.Controls.Add(Me.company2)
-        Me.Tile2.Controls.Add(Me.reference2)
-        Me.Tile2.Controls.Add(Me.tLabel2)
-        Me.Tile2.Controls.Add(Me.text21)
+        Me.Tile2.BackgroundImage = Global.ProjectoGConcurso.My.Resources.Resources.BGTile1
+        Me.Tile2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Tile2.Controls.Add(Me.PictureBox2)
+        Me.Tile2.Controls.Add(Me.Label2)
         Me.Tile2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Tile2.Location = New System.Drawing.Point(299, 10)
         Me.Tile2.Margin = New System.Windows.Forms.Padding(10)
@@ -222,75 +168,35 @@ Partial Class Home
         Me.Tile2.Size = New System.Drawing.Size(269, 181)
         Me.Tile2.TabIndex = 0
         '
-        'text22
+        'PictureBox2
         '
-        Me.text22.AutoSize = True
-        Me.text22.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.text22.ForeColor = System.Drawing.Color.DimGray
-        Me.text22.Location = New System.Drawing.Point(32, 80)
-        Me.text22.Name = "text22"
-        Me.text22.Size = New System.Drawing.Size(207, 19)
-        Me.text22.TabIndex = 0
-        Me.text22.Text = "Bicicletas e De Alimenticios"
-        Me.text22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.PictureBox2.Image = Global.ProjectoGConcurso.My.Resources.Resources.file__2_
+        Me.PictureBox2.Location = New System.Drawing.Point(89, 21)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(100, 102)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 1
+        Me.PictureBox2.TabStop = False
         '
-        'company2
+        'Label2
         '
-        Me.company2.AutoSize = True
-        Me.company2.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.company2.ForeColor = System.Drawing.Color.Gray
-        Me.company2.Location = New System.Drawing.Point(32, 104)
-        Me.company2.Name = "company2"
-        Me.company2.Size = New System.Drawing.Size(216, 15)
-        Me.company2.TabIndex = 0
-        Me.company2.Text = "Concurso publico para provimento de"
-        Me.company2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'reference2
-        '
-        Me.reference2.AutoSize = True
-        Me.reference2.Font = New System.Drawing.Font("Roboto", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.reference2.ForeColor = System.Drawing.Color.Gray
-        Me.reference2.Location = New System.Drawing.Point(152, 152)
-        Me.reference2.Name = "reference2"
-        Me.reference2.Size = New System.Drawing.Size(106, 14)
-        Me.reference2.TabIndex = 0
-        Me.reference2.Text = "Ref:#0000000ABC"
-        Me.reference2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'tLabel2
-        '
-        Me.tLabel2.AutoSize = True
-        Me.tLabel2.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tLabel2.ForeColor = System.Drawing.Color.Gray
-        Me.tLabel2.Location = New System.Drawing.Point(32, 32)
-        Me.tLabel2.Name = "tLabel2"
-        Me.tLabel2.Size = New System.Drawing.Size(216, 15)
-        Me.tLabel2.TabIndex = 0
-        Me.tLabel2.Text = "Concurso publico para provimento de"
-        Me.tLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'text21
-        '
-        Me.text21.AutoSize = True
-        Me.text21.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.text21.ForeColor = System.Drawing.Color.DimGray
-        Me.text21.Location = New System.Drawing.Point(32, 56)
-        Me.text21.Name = "text21"
-        Me.text21.Size = New System.Drawing.Size(207, 19)
-        Me.text21.TabIndex = 0
-        Me.text21.Text = "Bicicletas e De Alimenticios"
-        Me.text21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.DimGray
+        Me.Label2.Location = New System.Drawing.Point(29, 137)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(219, 19)
+        Me.Label2.TabIndex = 0
+        Me.Label2.Text = "Edit a Concourse Information"
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Tile3
         '
         Me.Tile3.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Tile3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Tile3.Controls.Add(Me.text32)
-        Me.Tile3.Controls.Add(Me.company3)
-        Me.Tile3.Controls.Add(Me.reference3)
-        Me.Tile3.Controls.Add(Me.tLabel3)
-        Me.Tile3.Controls.Add(Me.text31)
+        Me.Tile3.BackgroundImage = CType(resources.GetObject("Tile3.BackgroundImage"), System.Drawing.Image)
+        Me.Tile3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Tile3.Controls.Add(Me.PictureBox3)
+        Me.Tile3.Controls.Add(Me.Label3)
         Me.Tile3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Tile3.Location = New System.Drawing.Point(588, 10)
         Me.Tile3.Margin = New System.Windows.Forms.Padding(10)
@@ -298,75 +204,35 @@ Partial Class Home
         Me.Tile3.Size = New System.Drawing.Size(269, 181)
         Me.Tile3.TabIndex = 0
         '
-        'text32
+        'PictureBox3
         '
-        Me.text32.AutoSize = True
-        Me.text32.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.text32.ForeColor = System.Drawing.Color.DimGray
-        Me.text32.Location = New System.Drawing.Point(32, 80)
-        Me.text32.Name = "text32"
-        Me.text32.Size = New System.Drawing.Size(207, 19)
-        Me.text32.TabIndex = 0
-        Me.text32.Text = "Bicicletas e De Alimenticios"
-        Me.text32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.PictureBox3.Image = Global.ProjectoGConcurso.My.Resources.Resources.file
+        Me.PictureBox3.Location = New System.Drawing.Point(92, 21)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(100, 102)
+        Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox3.TabIndex = 1
+        Me.PictureBox3.TabStop = False
         '
-        'company3
+        'Label3
         '
-        Me.company3.AutoSize = True
-        Me.company3.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.company3.ForeColor = System.Drawing.Color.Gray
-        Me.company3.Location = New System.Drawing.Point(32, 104)
-        Me.company3.Name = "company3"
-        Me.company3.Size = New System.Drawing.Size(216, 15)
-        Me.company3.TabIndex = 0
-        Me.company3.Text = "Concurso publico para provimento de"
-        Me.company3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'reference3
-        '
-        Me.reference3.AutoSize = True
-        Me.reference3.Font = New System.Drawing.Font("Roboto", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.reference3.ForeColor = System.Drawing.Color.Gray
-        Me.reference3.Location = New System.Drawing.Point(152, 152)
-        Me.reference3.Name = "reference3"
-        Me.reference3.Size = New System.Drawing.Size(106, 14)
-        Me.reference3.TabIndex = 0
-        Me.reference3.Text = "Ref:#0000000ABC"
-        Me.reference3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'tLabel3
-        '
-        Me.tLabel3.AutoSize = True
-        Me.tLabel3.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tLabel3.ForeColor = System.Drawing.Color.Gray
-        Me.tLabel3.Location = New System.Drawing.Point(32, 32)
-        Me.tLabel3.Name = "tLabel3"
-        Me.tLabel3.Size = New System.Drawing.Size(216, 15)
-        Me.tLabel3.TabIndex = 0
-        Me.tLabel3.Text = "Concurso publico para provimento de"
-        Me.tLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'text31
-        '
-        Me.text31.AutoSize = True
-        Me.text31.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.text31.ForeColor = System.Drawing.Color.DimGray
-        Me.text31.Location = New System.Drawing.Point(32, 56)
-        Me.text31.Name = "text31"
-        Me.text31.Size = New System.Drawing.Size(207, 19)
-        Me.text31.TabIndex = 0
-        Me.text31.Text = "Bicicletas e De Alimenticios"
-        Me.text31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.DimGray
+        Me.Label3.Location = New System.Drawing.Point(65, 137)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(149, 19)
+        Me.Label3.TabIndex = 0
+        Me.Label3.Text = "Delete a Concourse"
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Tile4
         '
         Me.Tile4.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Tile4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Tile4.Controls.Add(Me.text42)
-        Me.Tile4.Controls.Add(Me.company4)
-        Me.Tile4.Controls.Add(Me.reference4)
-        Me.Tile4.Controls.Add(Me.tLabel4)
-        Me.Tile4.Controls.Add(Me.text41)
+        Me.Tile4.BackgroundImage = CType(resources.GetObject("Tile4.BackgroundImage"), System.Drawing.Image)
+        Me.Tile4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Tile4.Controls.Add(Me.PictureBox4)
+        Me.Tile4.Controls.Add(Me.Label4)
         Me.Tile4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Tile4.Location = New System.Drawing.Point(10, 211)
         Me.Tile4.Margin = New System.Windows.Forms.Padding(10)
@@ -374,445 +240,207 @@ Partial Class Home
         Me.Tile4.Size = New System.Drawing.Size(269, 181)
         Me.Tile4.TabIndex = 0
         '
-        'text42
+        'PictureBox4
         '
-        Me.text42.AutoSize = True
-        Me.text42.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.text42.ForeColor = System.Drawing.Color.DimGray
-        Me.text42.Location = New System.Drawing.Point(32, 80)
-        Me.text42.Name = "text42"
-        Me.text42.Size = New System.Drawing.Size(207, 19)
-        Me.text42.TabIndex = 0
-        Me.text42.Text = "Bicicletas e De Alimenticios"
-        Me.text42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.PictureBox4.Image = Global.ProjectoGConcurso.My.Resources.Resources.calendar
+        Me.PictureBox4.Location = New System.Drawing.Point(83, 19)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(100, 102)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 1
+        Me.PictureBox4.TabStop = False
         '
-        'company4
+        'Label4
         '
-        Me.company4.AutoSize = True
-        Me.company4.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.company4.ForeColor = System.Drawing.Color.Gray
-        Me.company4.Location = New System.Drawing.Point(32, 104)
-        Me.company4.Name = "company4"
-        Me.company4.Size = New System.Drawing.Size(216, 15)
-        Me.company4.TabIndex = 0
-        Me.company4.Text = "Concurso publico para provimento de"
-        Me.company4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'reference4
-        '
-        Me.reference4.AutoSize = True
-        Me.reference4.Font = New System.Drawing.Font("Roboto", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.reference4.ForeColor = System.Drawing.Color.Gray
-        Me.reference4.Location = New System.Drawing.Point(152, 152)
-        Me.reference4.Name = "reference4"
-        Me.reference4.Size = New System.Drawing.Size(106, 14)
-        Me.reference4.TabIndex = 0
-        Me.reference4.Text = "Ref:#0000000ABC"
-        Me.reference4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'tLabel4
-        '
-        Me.tLabel4.AutoSize = True
-        Me.tLabel4.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tLabel4.ForeColor = System.Drawing.Color.Gray
-        Me.tLabel4.Location = New System.Drawing.Point(32, 32)
-        Me.tLabel4.Name = "tLabel4"
-        Me.tLabel4.Size = New System.Drawing.Size(216, 15)
-        Me.tLabel4.TabIndex = 0
-        Me.tLabel4.Text = "Concurso publico para provimento de"
-        Me.tLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'text41
-        '
-        Me.text41.AutoSize = True
-        Me.text41.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.text41.ForeColor = System.Drawing.Color.DimGray
-        Me.text41.Location = New System.Drawing.Point(32, 56)
-        Me.text41.Name = "text41"
-        Me.text41.Size = New System.Drawing.Size(207, 19)
-        Me.text41.TabIndex = 0
-        Me.text41.Text = "Bicicletas e De Alimenticios"
-        Me.text41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Tile5
-        '
-        Me.Tile5.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Tile5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Tile5.Controls.Add(Me.text52)
-        Me.Tile5.Controls.Add(Me.company5)
-        Me.Tile5.Controls.Add(Me.reference5)
-        Me.Tile5.Controls.Add(Me.tLabel5)
-        Me.Tile5.Controls.Add(Me.text51)
-        Me.Tile5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Tile5.Location = New System.Drawing.Point(299, 211)
-        Me.Tile5.Margin = New System.Windows.Forms.Padding(10)
-        Me.Tile5.Name = "Tile5"
-        Me.Tile5.Size = New System.Drawing.Size(269, 181)
-        Me.Tile5.TabIndex = 0
-        '
-        'text52
-        '
-        Me.text52.AutoSize = True
-        Me.text52.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.text52.ForeColor = System.Drawing.Color.DimGray
-        Me.text52.Location = New System.Drawing.Point(32, 80)
-        Me.text52.Name = "text52"
-        Me.text52.Size = New System.Drawing.Size(207, 19)
-        Me.text52.TabIndex = 0
-        Me.text52.Text = "Bicicletas e De Alimenticios"
-        Me.text52.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'company5
-        '
-        Me.company5.AutoSize = True
-        Me.company5.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.company5.ForeColor = System.Drawing.Color.Gray
-        Me.company5.Location = New System.Drawing.Point(32, 104)
-        Me.company5.Name = "company5"
-        Me.company5.Size = New System.Drawing.Size(216, 15)
-        Me.company5.TabIndex = 0
-        Me.company5.Text = "Concurso publico para provimento de"
-        Me.company5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'reference5
-        '
-        Me.reference5.AutoSize = True
-        Me.reference5.Font = New System.Drawing.Font("Roboto", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.reference5.ForeColor = System.Drawing.Color.Gray
-        Me.reference5.Location = New System.Drawing.Point(152, 152)
-        Me.reference5.Name = "reference5"
-        Me.reference5.Size = New System.Drawing.Size(106, 14)
-        Me.reference5.TabIndex = 0
-        Me.reference5.Text = "Ref:#0000000ABC"
-        Me.reference5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'tLabel5
-        '
-        Me.tLabel5.AutoSize = True
-        Me.tLabel5.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tLabel5.ForeColor = System.Drawing.Color.Gray
-        Me.tLabel5.Location = New System.Drawing.Point(32, 32)
-        Me.tLabel5.Name = "tLabel5"
-        Me.tLabel5.Size = New System.Drawing.Size(216, 15)
-        Me.tLabel5.TabIndex = 0
-        Me.tLabel5.Text = "Concurso publico para provimento de"
-        Me.tLabel5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'text51
-        '
-        Me.text51.AutoSize = True
-        Me.text51.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.text51.ForeColor = System.Drawing.Color.DimGray
-        Me.text51.Location = New System.Drawing.Point(32, 56)
-        Me.text51.Name = "text51"
-        Me.text51.Size = New System.Drawing.Size(207, 19)
-        Me.text51.TabIndex = 0
-        Me.text51.Text = "Bicicletas e De Alimenticios"
-        Me.text51.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.DimGray
+        Me.Label4.Location = New System.Drawing.Point(60, 135)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(143, 19)
+        Me.Label4.TabIndex = 0
+        Me.Label4.Text = "Close a Concourse"
+        Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Tile6
         '
         Me.Tile6.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Tile6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Tile6.Controls.Add(Me.text62)
-        Me.Tile6.Controls.Add(Me.company6)
-        Me.Tile6.Controls.Add(Me.reference6)
-        Me.Tile6.Controls.Add(Me.tLabel6)
-        Me.Tile6.Controls.Add(Me.text61)
+        Me.Tile6.BackgroundImage = CType(resources.GetObject("Tile6.BackgroundImage"), System.Drawing.Image)
+        Me.Tile6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Tile6.Controls.Add(Me.PictureBox5)
+        Me.Tile6.Controls.Add(Me.Label5)
         Me.Tile6.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Tile6.Location = New System.Drawing.Point(588, 211)
+        Me.Tile6.Location = New System.Drawing.Point(299, 211)
         Me.Tile6.Margin = New System.Windows.Forms.Padding(10)
         Me.Tile6.Name = "Tile6"
         Me.Tile6.Size = New System.Drawing.Size(269, 181)
         Me.Tile6.TabIndex = 0
         '
-        'text62
+        'PictureBox5
         '
-        Me.text62.AutoSize = True
-        Me.text62.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.text62.ForeColor = System.Drawing.Color.DimGray
-        Me.text62.Location = New System.Drawing.Point(32, 80)
-        Me.text62.Name = "text62"
-        Me.text62.Size = New System.Drawing.Size(207, 19)
-        Me.text62.TabIndex = 0
-        Me.text62.Text = "Bicicletas e De Alimenticios"
-        Me.text62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.PictureBox5.Image = Global.ProjectoGConcurso.My.Resources.Resources.file__3_
+        Me.PictureBox5.Location = New System.Drawing.Point(89, 19)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(100, 102)
+        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox5.TabIndex = 1
+        Me.PictureBox5.TabStop = False
         '
-        'company6
+        'Label5
         '
-        Me.company6.AutoSize = True
-        Me.company6.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.company6.ForeColor = System.Drawing.Color.Gray
-        Me.company6.Location = New System.Drawing.Point(32, 104)
-        Me.company6.Name = "company6"
-        Me.company6.Size = New System.Drawing.Size(216, 15)
-        Me.company6.TabIndex = 0
-        Me.company6.Text = "Concurso publico para provimento de"
-        Me.company6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'reference6
-        '
-        Me.reference6.AutoSize = True
-        Me.reference6.Font = New System.Drawing.Font("Roboto", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.reference6.ForeColor = System.Drawing.Color.Gray
-        Me.reference6.Location = New System.Drawing.Point(152, 152)
-        Me.reference6.Name = "reference6"
-        Me.reference6.Size = New System.Drawing.Size(106, 14)
-        Me.reference6.TabIndex = 0
-        Me.reference6.Text = "Ref:#0000000ABC"
-        Me.reference6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'tLabel6
-        '
-        Me.tLabel6.AutoSize = True
-        Me.tLabel6.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tLabel6.ForeColor = System.Drawing.Color.Gray
-        Me.tLabel6.Location = New System.Drawing.Point(32, 32)
-        Me.tLabel6.Name = "tLabel6"
-        Me.tLabel6.Size = New System.Drawing.Size(216, 15)
-        Me.tLabel6.TabIndex = 0
-        Me.tLabel6.Text = "Concurso publico para provimento de"
-        Me.tLabel6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'text61
-        '
-        Me.text61.AutoSize = True
-        Me.text61.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.text61.ForeColor = System.Drawing.Color.DimGray
-        Me.text61.Location = New System.Drawing.Point(32, 56)
-        Me.text61.Name = "text61"
-        Me.text61.Size = New System.Drawing.Size(207, 19)
-        Me.text61.TabIndex = 0
-        Me.text61.Text = "Bicicletas e De Alimenticios"
-        Me.text61.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.DimGray
+        Me.Label5.Location = New System.Drawing.Point(69, 135)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(120, 19)
+        Me.Label5.TabIndex = 0
+        Me.Label5.Text = "My Concourses"
+        Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Tile7
         '
         Me.Tile7.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Tile7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Tile7.Controls.Add(Me.text72)
-        Me.Tile7.Controls.Add(Me.company7)
-        Me.Tile7.Controls.Add(Me.reference7)
-        Me.Tile7.Controls.Add(Me.tLabel7)
-        Me.Tile7.Controls.Add(Me.text71)
+        Me.Tile7.BackgroundImage = CType(resources.GetObject("Tile7.BackgroundImage"), System.Drawing.Image)
+        Me.Tile7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Tile7.Controls.Add(Me.PictureBox6)
+        Me.Tile7.Controls.Add(Me.Label6)
         Me.Tile7.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Tile7.Location = New System.Drawing.Point(10, 412)
+        Me.Tile7.Location = New System.Drawing.Point(588, 211)
         Me.Tile7.Margin = New System.Windows.Forms.Padding(10)
         Me.Tile7.Name = "Tile7"
         Me.Tile7.Size = New System.Drawing.Size(269, 181)
         Me.Tile7.TabIndex = 0
         '
-        'text72
+        'PictureBox6
         '
-        Me.text72.AutoSize = True
-        Me.text72.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.text72.ForeColor = System.Drawing.Color.DimGray
-        Me.text72.Location = New System.Drawing.Point(32, 80)
-        Me.text72.Name = "text72"
-        Me.text72.Size = New System.Drawing.Size(207, 19)
-        Me.text72.TabIndex = 0
-        Me.text72.Text = "Bicicletas e De Alimenticios"
-        Me.text72.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.PictureBox6.Image = Global.ProjectoGConcurso.My.Resources.Resources.user
+        Me.PictureBox6.Location = New System.Drawing.Point(92, 19)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(100, 102)
+        Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox6.TabIndex = 1
+        Me.PictureBox6.TabStop = False
         '
-        'company7
+        'Label6
         '
-        Me.company7.AutoSize = True
-        Me.company7.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.company7.ForeColor = System.Drawing.Color.Gray
-        Me.company7.Location = New System.Drawing.Point(32, 104)
-        Me.company7.Name = "company7"
-        Me.company7.Size = New System.Drawing.Size(216, 15)
-        Me.company7.TabIndex = 0
-        Me.company7.Text = "Concurso publico para provimento de"
-        Me.company7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'reference7
-        '
-        Me.reference7.AutoSize = True
-        Me.reference7.Font = New System.Drawing.Font("Roboto", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.reference7.ForeColor = System.Drawing.Color.Gray
-        Me.reference7.Location = New System.Drawing.Point(152, 152)
-        Me.reference7.Name = "reference7"
-        Me.reference7.Size = New System.Drawing.Size(106, 14)
-        Me.reference7.TabIndex = 0
-        Me.reference7.Text = "Ref:#0000000ABC"
-        Me.reference7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'tLabel7
-        '
-        Me.tLabel7.AutoSize = True
-        Me.tLabel7.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tLabel7.ForeColor = System.Drawing.Color.Gray
-        Me.tLabel7.Location = New System.Drawing.Point(32, 32)
-        Me.tLabel7.Name = "tLabel7"
-        Me.tLabel7.Size = New System.Drawing.Size(216, 15)
-        Me.tLabel7.TabIndex = 0
-        Me.tLabel7.Text = "Concurso publico para provimento de"
-        Me.tLabel7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'text71
-        '
-        Me.text71.AutoSize = True
-        Me.text71.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.text71.ForeColor = System.Drawing.Color.DimGray
-        Me.text71.Location = New System.Drawing.Point(32, 56)
-        Me.text71.Name = "text71"
-        Me.text71.Size = New System.Drawing.Size(207, 19)
-        Me.text71.TabIndex = 0
-        Me.text71.Text = "Bicicletas e De Alimenticios"
-        Me.text71.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.DimGray
+        Me.Label6.Location = New System.Drawing.Point(63, 135)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(151, 19)
+        Me.Label6.TabIndex = 0
+        Me.Label6.Text = "Manage Account(s)"
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Tile8
         '
         Me.Tile8.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Tile8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Tile8.Controls.Add(Me.text82)
-        Me.Tile8.Controls.Add(Me.company8)
-        Me.Tile8.Controls.Add(Me.reference8)
-        Me.Tile8.Controls.Add(Me.tLabel8)
-        Me.Tile8.Controls.Add(Me.text81)
+        Me.Tile8.BackgroundImage = CType(resources.GetObject("Tile8.BackgroundImage"), System.Drawing.Image)
+        Me.Tile8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Tile8.Controls.Add(Me.PictureBox7)
+        Me.Tile8.Controls.Add(Me.Label7)
         Me.Tile8.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Tile8.Location = New System.Drawing.Point(299, 412)
+        Me.Tile8.Location = New System.Drawing.Point(10, 412)
         Me.Tile8.Margin = New System.Windows.Forms.Padding(10)
         Me.Tile8.Name = "Tile8"
         Me.Tile8.Size = New System.Drawing.Size(269, 181)
         Me.Tile8.TabIndex = 0
         '
-        'text82
+        'PictureBox7
         '
-        Me.text82.AutoSize = True
-        Me.text82.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.text82.ForeColor = System.Drawing.Color.DimGray
-        Me.text82.Location = New System.Drawing.Point(33, 80)
-        Me.text82.Name = "text82"
-        Me.text82.Size = New System.Drawing.Size(207, 19)
-        Me.text82.TabIndex = 0
-        Me.text82.Text = "Bicicletas e De Alimenticios"
-        Me.text82.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.PictureBox7.Image = Global.ProjectoGConcurso.My.Resources.Resources.notebook
+        Me.PictureBox7.Location = New System.Drawing.Point(83, 17)
+        Me.PictureBox7.Name = "PictureBox7"
+        Me.PictureBox7.Size = New System.Drawing.Size(100, 102)
+        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox7.TabIndex = 1
+        Me.PictureBox7.TabStop = False
         '
-        'company8
+        'Label7
         '
-        Me.company8.AutoSize = True
-        Me.company8.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.company8.ForeColor = System.Drawing.Color.Gray
-        Me.company8.Location = New System.Drawing.Point(33, 104)
-        Me.company8.Name = "company8"
-        Me.company8.Size = New System.Drawing.Size(216, 15)
-        Me.company8.TabIndex = 0
-        Me.company8.Text = "Concurso publico para provimento de"
-        Me.company8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'reference8
-        '
-        Me.reference8.AutoSize = True
-        Me.reference8.Font = New System.Drawing.Font("Roboto", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.reference8.ForeColor = System.Drawing.Color.Gray
-        Me.reference8.Location = New System.Drawing.Point(152, 152)
-        Me.reference8.Name = "reference8"
-        Me.reference8.Size = New System.Drawing.Size(106, 14)
-        Me.reference8.TabIndex = 0
-        Me.reference8.Text = "Ref:#0000000ABC"
-        Me.reference8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'tLabel8
-        '
-        Me.tLabel8.AutoSize = True
-        Me.tLabel8.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tLabel8.ForeColor = System.Drawing.Color.Gray
-        Me.tLabel8.Location = New System.Drawing.Point(33, 32)
-        Me.tLabel8.Name = "tLabel8"
-        Me.tLabel8.Size = New System.Drawing.Size(216, 15)
-        Me.tLabel8.TabIndex = 0
-        Me.tLabel8.Text = "Concurso publico para provimento de"
-        Me.tLabel8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'text81
-        '
-        Me.text81.AutoSize = True
-        Me.text81.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.text81.ForeColor = System.Drawing.Color.DimGray
-        Me.text81.Location = New System.Drawing.Point(33, 56)
-        Me.text81.Name = "text81"
-        Me.text81.Size = New System.Drawing.Size(207, 19)
-        Me.text81.TabIndex = 0
-        Me.text81.Text = "Bicicletas e De Alimenticios"
-        Me.text81.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.Color.DimGray
+        Me.Label7.Location = New System.Drawing.Point(38, 132)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(195, 19)
+        Me.Label7.TabIndex = 0
+        Me.Label7.Text = "Add Concourse Questions"
+        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Tile9
         '
         Me.Tile9.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.Tile9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Tile9.Controls.Add(Me.text92)
-        Me.Tile9.Controls.Add(Me.company9)
-        Me.Tile9.Controls.Add(Me.reference9)
-        Me.Tile9.Controls.Add(Me.tLabel9)
-        Me.Tile9.Controls.Add(Me.text91)
+        Me.Tile9.BackgroundImage = CType(resources.GetObject("Tile9.BackgroundImage"), System.Drawing.Image)
+        Me.Tile9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Tile9.Controls.Add(Me.PictureBox8)
+        Me.Tile9.Controls.Add(Me.Label8)
         Me.Tile9.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Tile9.Location = New System.Drawing.Point(588, 412)
+        Me.Tile9.Location = New System.Drawing.Point(299, 412)
         Me.Tile9.Margin = New System.Windows.Forms.Padding(10)
         Me.Tile9.Name = "Tile9"
         Me.Tile9.Size = New System.Drawing.Size(269, 181)
         Me.Tile9.TabIndex = 0
         '
-        'text92
+        'PictureBox8
         '
-        Me.text92.AutoSize = True
-        Me.text92.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.text92.ForeColor = System.Drawing.Color.DimGray
-        Me.text92.Location = New System.Drawing.Point(25, 80)
-        Me.text92.Name = "text92"
-        Me.text92.Size = New System.Drawing.Size(207, 19)
-        Me.text92.TabIndex = 0
-        Me.text92.Text = "Bicicletas e De Alimenticios"
-        Me.text92.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.PictureBox8.Image = Global.ProjectoGConcurso.My.Resources.Resources.notepad
+        Me.PictureBox8.Location = New System.Drawing.Point(89, 17)
+        Me.PictureBox8.Name = "PictureBox8"
+        Me.PictureBox8.Size = New System.Drawing.Size(100, 102)
+        Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox8.TabIndex = 1
+        Me.PictureBox8.TabStop = False
         '
-        'company9
+        'Label8
         '
-        Me.company9.AutoSize = True
-        Me.company9.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.company9.ForeColor = System.Drawing.Color.Gray
-        Me.company9.Location = New System.Drawing.Point(26, 104)
-        Me.company9.Name = "company9"
-        Me.company9.Size = New System.Drawing.Size(216, 15)
-        Me.company9.TabIndex = 0
-        Me.company9.Text = "Concurso publico para provimento de"
-        Me.company9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.Color.DimGray
+        Me.Label8.Location = New System.Drawing.Point(109, 132)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(57, 19)
+        Me.Label8.TabIndex = 0
+        Me.Label8.Text = "Report"
+        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'reference9
+        'Panel1
         '
-        Me.reference9.AutoSize = True
-        Me.reference9.Font = New System.Drawing.Font("Roboto", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.reference9.ForeColor = System.Drawing.Color.Gray
-        Me.reference9.Location = New System.Drawing.Point(152, 152)
-        Me.reference9.Name = "reference9"
-        Me.reference9.Size = New System.Drawing.Size(106, 14)
-        Me.reference9.TabIndex = 0
-        Me.reference9.Text = "Ref:#0000000ABC"
-        Me.reference9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Panel1.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Panel1.BackgroundImage = CType(resources.GetObject("Panel1.BackgroundImage"), System.Drawing.Image)
+        Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.Panel1.Controls.Add(Me.PictureBox9)
+        Me.Panel1.Controls.Add(Me.Label9)
+        Me.Panel1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Panel1.Location = New System.Drawing.Point(588, 412)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(10)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(269, 181)
+        Me.Panel1.TabIndex = 1
         '
-        'tLabel9
+        'PictureBox9
         '
-        Me.tLabel9.AutoSize = True
-        Me.tLabel9.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tLabel9.ForeColor = System.Drawing.Color.Gray
-        Me.tLabel9.Location = New System.Drawing.Point(26, 32)
-        Me.tLabel9.Name = "tLabel9"
-        Me.tLabel9.Size = New System.Drawing.Size(216, 15)
-        Me.tLabel9.TabIndex = 0
-        Me.tLabel9.Text = "Concurso publico para provimento de"
-        Me.tLabel9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.PictureBox9.Image = Global.ProjectoGConcurso.My.Resources.Resources.mobile
+        Me.PictureBox9.Location = New System.Drawing.Point(92, 17)
+        Me.PictureBox9.Name = "PictureBox9"
+        Me.PictureBox9.Size = New System.Drawing.Size(100, 102)
+        Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox9.TabIndex = 1
+        Me.PictureBox9.TabStop = False
         '
-        'text91
+        'Label9
         '
-        Me.text91.AutoSize = True
-        Me.text91.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.text91.ForeColor = System.Drawing.Color.DimGray
-        Me.text91.Location = New System.Drawing.Point(25, 56)
-        Me.text91.Name = "text91"
-        Me.text91.Size = New System.Drawing.Size(207, 19)
-        Me.text91.TabIndex = 0
-        Me.text91.Text = "Bicicletas e De Alimenticios"
-        Me.text91.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Roboto", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.Color.DimGray
+        Me.Label9.Location = New System.Drawing.Point(63, 132)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(150, 19)
+        Me.Label9.TabIndex = 0
+        Me.Label9.Text = "About My Company"
+        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'CloseApp
         '
@@ -835,9 +463,9 @@ Partial Class Home
         Me.userprofilename.Cursor = System.Windows.Forms.Cursors.Hand
         Me.userprofilename.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.userprofilename.ForeColor = System.Drawing.Color.Gray
-        Me.userprofilename.Location = New System.Drawing.Point(909, 27)
+        Me.userprofilename.Location = New System.Drawing.Point(909, 28)
         Me.userprofilename.Name = "userprofilename"
-        Me.userprofilename.Size = New System.Drawing.Size(213, 16)
+        Me.userprofilename.Size = New System.Drawing.Size(213, 15)
         Me.userprofilename.TabIndex = 10
         Me.userprofilename.Text = "Username"
         Me.userprofilename.TextAlign = System.Drawing.ContentAlignment.TopRight
@@ -868,6 +496,57 @@ Partial Class Home
         Me.LogoutSession.TabIndex = 10
         Me.LogoutSession.Text = "Logout"
         '
+        'minimize
+        '
+        Me.minimize.AutoSize = True
+        Me.minimize.BackColor = System.Drawing.Color.Transparent
+        Me.minimize.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.minimize.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.minimize.ForeColor = System.Drawing.Color.Gray
+        Me.minimize.Location = New System.Drawing.Point(12, 776)
+        Me.minimize.Name = "minimize"
+        Me.minimize.Size = New System.Drawing.Size(59, 15)
+        Me.minimize.TabIndex = 10
+        Me.minimize.Text = "Minimize"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.BackColor = System.Drawing.Color.Transparent
+        Me.Label10.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Label10.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.Label10.ForeColor = System.Drawing.Color.Gray
+        Me.Label10.Location = New System.Drawing.Point(92, 776)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(145, 15)
+        Me.Label10.TabIndex = 10
+        Me.Label10.Text = "© 2019 Immersed Ideas"
+        '
+        'PictureBox10
+        '
+        Me.PictureBox10.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.PictureBox10.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.PictureBox10.Image = Global.ProjectoGConcurso.My.Resources.Resources.Help_48px
+        Me.PictureBox10.Location = New System.Drawing.Point(1162, 764)
+        Me.PictureBox10.Name = "PictureBox10"
+        Me.PictureBox10.Size = New System.Drawing.Size(26, 27)
+        Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox10.TabIndex = 1
+        Me.PictureBox10.TabStop = False
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.BackColor = System.Drawing.Color.Transparent
+        Me.Label12.Cursor = System.Windows.Forms.Cursors.Default
+        Me.Label12.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.Label12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Label12.Location = New System.Drawing.Point(76, 776)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(10, 15)
+        Me.Label12.TabIndex = 10
+        Me.Label12.Text = "|"
+        '
         'Home
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -876,10 +555,14 @@ Partial Class Home
         Me.BackgroundImage = Global.ProjectoGConcurso.My.Resources.Resources.Hback
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.ClientSize = New System.Drawing.Size(1200, 800)
+        Me.Controls.Add(Me.PictureBox10)
         Me.Controls.Add(Me.TilesPanel)
         Me.Controls.Add(Me.toLogin)
         Me.Controls.Add(Me.userprofilename)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.minimize)
         Me.Controls.Add(Me.LogoutSession)
+        Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.CloseApp)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -892,22 +575,32 @@ Partial Class Home
         Me.TilesPanel.ResumeLayout(False)
         Me.Tile.ResumeLayout(False)
         Me.Tile.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Tile2.ResumeLayout(False)
         Me.Tile2.PerformLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Tile3.ResumeLayout(False)
         Me.Tile3.PerformLayout()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Tile4.ResumeLayout(False)
         Me.Tile4.PerformLayout()
-        Me.Tile5.ResumeLayout(False)
-        Me.Tile5.PerformLayout()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Tile6.ResumeLayout(False)
         Me.Tile6.PerformLayout()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Tile7.ResumeLayout(False)
         Me.Tile7.PerformLayout()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Tile8.ResumeLayout(False)
         Me.Tile8.PerformLayout()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Tile9.ResumeLayout(False)
         Me.Tile9.PerformLayout()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
+        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -916,60 +609,37 @@ Partial Class Home
     Friend WithEvents TilesPanel As FlowLayoutPanel
     Friend WithEvents Tile As Panel
     Friend WithEvents text11 As Label
-    Friend WithEvents text12 As Label
-    Friend WithEvents tLabel As Label
-    Friend WithEvents company1 As Label
-    Friend WithEvents reference1 As Label
     Friend WithEvents Tile2 As Panel
-    Friend WithEvents text22 As Label
-    Friend WithEvents company2 As Label
-    Friend WithEvents reference2 As Label
-    Friend WithEvents tLabel2 As Label
-    Friend WithEvents text21 As Label
     Friend WithEvents Tile3 As Panel
-    Friend WithEvents text32 As Label
-    Friend WithEvents company3 As Label
-    Friend WithEvents reference3 As Label
-    Friend WithEvents tLabel3 As Label
-    Friend WithEvents text31 As Label
     Friend WithEvents Tile4 As Panel
-    Friend WithEvents text42 As Label
-    Friend WithEvents company4 As Label
-    Friend WithEvents reference4 As Label
-    Friend WithEvents tLabel4 As Label
-    Friend WithEvents text41 As Label
-    Friend WithEvents Tile5 As Panel
-    Friend WithEvents text52 As Label
-    Friend WithEvents company5 As Label
-    Friend WithEvents reference5 As Label
-    Friend WithEvents tLabel5 As Label
-    Friend WithEvents text51 As Label
     Friend WithEvents Tile6 As Panel
-    Friend WithEvents text62 As Label
-    Friend WithEvents company6 As Label
-    Friend WithEvents reference6 As Label
-    Friend WithEvents tLabel6 As Label
-    Friend WithEvents text61 As Label
     Friend WithEvents Tile7 As Panel
-    Friend WithEvents text72 As Label
-    Friend WithEvents company7 As Label
-    Friend WithEvents reference7 As Label
-    Friend WithEvents tLabel7 As Label
-    Friend WithEvents text71 As Label
     Friend WithEvents Tile8 As Panel
-    Friend WithEvents text82 As Label
-    Friend WithEvents company8 As Label
-    Friend WithEvents reference8 As Label
-    Friend WithEvents tLabel8 As Label
-    Friend WithEvents text81 As Label
     Friend WithEvents Tile9 As Panel
-    Friend WithEvents text92 As Label
-    Friend WithEvents company9 As Label
-    Friend WithEvents reference9 As Label
-    Friend WithEvents tLabel9 As Label
-    Friend WithEvents text91 As Label
     Friend WithEvents CloseApp As Label
     Friend WithEvents userprofilename As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents LogoutSession As Label
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents PictureBox5 As PictureBox
+    Friend WithEvents PictureBox6 As PictureBox
+    Friend WithEvents PictureBox7 As PictureBox
+    Friend WithEvents PictureBox8 As PictureBox
+    Friend WithEvents PictureBox9 As PictureBox
+    Friend WithEvents minimize As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents PictureBox10 As PictureBox
+    Friend WithEvents Label12 As Label
 End Class

@@ -353,7 +353,6 @@ Public Class ACreator
             ACTab1.TabPages.Remove(ACCompany)
         ElseIf status > 1 Then
             Me.Close()
-            UserBoard.Show()
         End If
 
     End Sub

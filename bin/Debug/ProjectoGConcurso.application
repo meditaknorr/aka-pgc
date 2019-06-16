@@ -7,14 +7,14 @@
     <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="ProjectoGConcurso.exe.manifest" size="18006">
+    <dependentAssembly dependencyType="install" codebase="ProjectoGConcurso.exe.manifest" size="18411">
       <assemblyIdentity name="ProjectoGConcurso.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>UDPMxOxyiFno1zkElmI3XJ0FTQyZ67z4MhAyV2TOZlY=</dsig:DigestValue>
+        <dsig:DigestValue>PsY1tz/PLixC1NthXGyQ6u3ZPed6uylwql2DPCZilGw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

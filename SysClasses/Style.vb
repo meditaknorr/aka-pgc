@@ -8,4 +8,12 @@
         link.ForeColor = Color.DimGray
     End Sub
 
+    Shared Sub Tile_MouseHover(ByRef tile As Object)
+        tile.BackgroundImageLayout = ImageLayout.Zoom
+    End Sub
+
+    Shared Sub Tile(ByRef tile As Object)
+        tile.BackgroundImageLayout = ImageLayout.None
+    End Sub
+
 End Class

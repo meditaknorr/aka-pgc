@@ -184,16 +184,70 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutCompany.Designer.vb">
+      <DependentUpon>AboutCompany.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutCompany.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutMe.Designer.vb">
+      <DependentUpon>AboutMe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutMe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CClose.Designer.vb">
+      <DependentUpon>CClose.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CClose.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CDeleter.Designer.vb">
+      <DependentUpon>CDeleter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CDeleter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CEditor.Designer.vb">
+      <DependentUpon>CEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CEditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CManageAccounts.Designer.vb">
+      <DependentUpon>CManageAccounts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CManageAccounts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CQuestions.Designer.vb">
+      <DependentUpon>CQuestions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CQuestions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CUserProfileCreator.Designer.vb">
+      <DependentUpon>CUserProfileCreator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CUserProfileCreator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CViewer.Designer.vb">
+      <DependentUpon>CViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="DepricatedAccountCreator.Designer.vb">
       <DependentUpon>DepricatedAccountCreator.vb</DependentUpon>
     </Compile>
     <Compile Include="DepricatedAccountCreator.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CDescription.Designer.vb">
-      <DependentUpon>CDescription.vb</DependentUpon>
+    <Compile Include="Help.Designer.vb">
+      <DependentUpon>Help.vb</DependentUpon>
     </Compile>
-    <Compile Include="CDescription.vb">
+    <Compile Include="Help.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DepricatedLoading.Designer.vb">
@@ -212,6 +266,12 @@
       <DependentUpon>ForgotUsername.vb</DependentUpon>
     </Compile>
     <Compile Include="ForgotUsername.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report.Designer.vb">
+      <DependentUpon>Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Report.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SysClasses\dbamanager.vb" />
@@ -250,19 +310,46 @@
     </Compile>
     <Compile Include="SysClasses\Session.vb" />
     <Compile Include="SysClasses\Style.vb" />
-    <Compile Include="UserBoard.Designer.vb">
-      <DependentUpon>UserBoard.vb</DependentUpon>
+    <Compile Include="CCreator.Designer.vb">
+      <DependentUpon>CCreator.vb</DependentUpon>
     </Compile>
-    <Compile Include="UserBoard.vb">
+    <Compile Include="CCreator.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AboutCompany.resx">
+      <DependentUpon>AboutCompany.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AboutMe.resx">
+      <DependentUpon>AboutMe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CClose.resx">
+      <DependentUpon>CClose.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CDeleter.resx">
+      <DependentUpon>CDeleter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CEditor.resx">
+      <DependentUpon>CEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CManageAccounts.resx">
+      <DependentUpon>CManageAccounts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CQuestions.resx">
+      <DependentUpon>CQuestions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CUserProfileCreator.resx">
+      <DependentUpon>CUserProfileCreator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CViewer.resx">
+      <DependentUpon>CViewer.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DepricatedAccountCreator.resx">
       <DependentUpon>DepricatedAccountCreator.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CDescription.resx">
-      <DependentUpon>CDescription.vb</DependentUpon>
+    <EmbeddedResource Include="Help.resx">
+      <DependentUpon>Help.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ForgotPassword.resx">
       <DependentUpon>ForgotPassword.vb</DependentUpon>
@@ -285,8 +372,11 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserBoard.resx">
-      <DependentUpon>UserBoard.vb</DependentUpon>
+    <EmbeddedResource Include="CCreator.resx">
+      <DependentUpon>CCreator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report.resx">
+      <DependentUpon>Report.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -379,6 +469,28 @@
     <None Include="Resources\HomeBackground.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\test.png" />
+    <None Include="Resources\planning.png" />
+    <None Include="Resources\test1.png" />
+    <None Include="Resources\interview.png" />
+    <None Include="Resources\file.png" />
+    <None Include="Resources\file %281%29.png" />
+    <None Include="Resources\file %282%29.png" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\calendar.png" />
+    <None Include="Resources\file %283%29.png" />
+    <None Include="Resources\notebook.png" />
+    <None Include="Resources\mobile.png" />
+    <None Include="Resources\notepad.png" />
+    <None Include="Resources\BGTile.png" />
+    <None Include="Resources\BGTile1.png" />
+    <None Include="Resources\formbg.png" />
+    <None Include="Resources\Schedule_48px.png" />
+    <None Include="Resources\Denied_48px.png" />
+    <None Include="Resources\Add User Male_48px.png" />
+    <None Include="Resources\Help_48px.png" />
+    <None Include="Resources\Todo List_48px.png" />
+    <Content Include="SonicCalendarControl.ocx" />
     <Content Include="SysPages\SDescription.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -429,6 +541,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <Import Project="..\packages\System.Data.SQLite.Core.1.0.110.0\build\net451\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.110.0\build\net451\System.Data.SQLite.Core.targets')" />

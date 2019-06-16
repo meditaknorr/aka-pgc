@@ -37,6 +37,7 @@ Partial Class Login
         Me.minimize = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.CloseApp = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
         CType(Me.UserIcon, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.loadingPic, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.inputPasswordbg, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -177,17 +178,17 @@ Partial Class Login
         '
         'Label1
         '
-        Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(90, Byte), Integer))
         Me.Label1.Cursor = System.Windows.Forms.Cursors.Default
         Me.Label1.Font = New System.Drawing.Font("Roboto", 8.25!)
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(14, 778)
+        Me.Label1.Location = New System.Drawing.Point(75, 746)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(420, 13)
+        Me.Label1.Size = New System.Drawing.Size(300, 33)
         Me.Label1.TabIndex = 9
         Me.Label1.Text = "Before start using, login on our system make sure you have an internet connection" &
     "."
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'minimize
         '
@@ -228,12 +229,26 @@ Partial Class Login
         Me.CloseApp.TabIndex = 13
         Me.CloseApp.Text = "Close"
         '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.BackColor = System.Drawing.Color.FromArgb(CType(CType(48, Byte), Integer), CType(CType(57, Byte), Integer), CType(CType(90, Byte), Integer))
+        Me.Label10.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Label10.Font = New System.Drawing.Font("Roboto", 9.75!, System.Drawing.FontStyle.Bold)
+        Me.Label10.ForeColor = System.Drawing.Color.White
+        Me.Label10.Location = New System.Drawing.Point(152, 779)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(145, 15)
+        Me.Label10.TabIndex = 14
+        Me.Label10.Text = "© 2019 Immersed Ideas"
+        '
         'Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(450, 800)
+        Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.minimize)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.CloseApp)
@@ -277,4 +292,5 @@ Partial Class Login
     Friend WithEvents minimize As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents CloseApp As Label
+    Friend WithEvents Label10 As Label
 End Class
